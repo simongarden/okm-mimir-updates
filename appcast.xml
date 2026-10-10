@@ -2,12 +2,17 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <title>OKM Mimir 更新</title>
+    <item><title>OKM Mimir 0.1.8（build 9）</title><pubDate>Sat, 10 Oct 2026 12:18:19 +0000</pubDate><sparkle:version>9</sparkle:version><sparkle:shortVersionString>0.1.8</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description>新增自動更新：選單「檢查更新…」與每日自動檢查，安裝前會先詢問；檔案工作進行中會延後安裝。
+程式改採 AGPL-3.0-or-later 授權，每個版本附完整對應原始碼；可在「說明 › 授權與原始碼」查看授權與下載位置。
+Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼重新建置的 Ghostscript。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.8-build9/OKM-Mimir-0.1.8-build9-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.8-build9/OKM-Mimir-0.1.8-build9-universal.dmg" length="32807582" type="application/octet-stream" sparkle:edSignature="iuqVfLoblCfFLOiaEzEtAzNKAFYsCxsRSHQTHcqr0kder027GxNXtX3gcZ9IR3/loP6/K0IMF44+dEi2yBW9CA=="></enclosure></item><title>OKM Mimir 更新</title>
     <link>https://github.com/simongarden/okm-mimir-updates</link>
     <description>OKM Mimir 正式版更新</description>
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 61mIWWGmF82lyWTVlugWV2H7ASDFVK2dh7q+bcnGkYIpDU9/ddOy7gogA/gqV/7Snx0PBx4OFvj/tFCVjDX8Ag==
-length: 600
+edSignature: c75OfUoHtBcs0n8vsYdYYVa2R8bXqZJxYV8N3oZsQM+zKJ6suwwsGravd3ON6SX8YajCf1nUofODgNaVdZmTDA==
+length: 1820
 -->
