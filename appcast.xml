@@ -2,7 +2,10 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.1.8（build 9）</title><pubDate>Sat, 10 Oct 2026 12:18:19 +0000</pubDate><sparkle:version>9</sparkle:version><sparkle:shortVersionString>0.1.8</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description>新增自動更新：選單「檢查更新…」與每日自動檢查，安裝前會先詢問；檔案工作進行中會延後安裝。
+    <item><title>OKM Mimir 0.1.9（build 10）</title><pubDate>Sat, 10 Oct 2026 12:42:01 +0000</pubDate><sparkle:version>10</sparkle:version><sparkle:shortVersionString>0.1.9</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description>修正：開啟「說明 › 授權與原始碼」時 App 停止回應的問題，視窗現在可立即開啟。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.9-build10/OKM-Mimir-0.1.9-build10-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.9-build10/OKM-Mimir-0.1.9-build10-universal.dmg" length="32808378" type="application/octet-stream" sparkle:edSignature="QiHpzxWXZwyIx7wKiPDtL1/3prgTeA+QQAJjTMRxrKEFh6i6Vu+2H7ao5H45WAF6ASRHEK+917hkgalcG/64Aw=="></enclosure></item><item><title>OKM Mimir 0.1.8（build 9）</title><pubDate>Sat, 10 Oct 2026 12:18:19 +0000</pubDate><sparkle:version>9</sparkle:version><sparkle:shortVersionString>0.1.8</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description>新增自動更新：選單「檢查更新…」與每日自動檢查，安裝前會先詢問；檔案工作進行中會延後安裝。
 程式改採 AGPL-3.0-or-later 授權，每個版本附完整對應原始碼；可在「說明 › 授權與原始碼」查看授權與下載位置。
 Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼重新建置的 Ghostscript。
 
@@ -13,6 +16,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: c75OfUoHtBcs0n8vsYdYYVa2R8bXqZJxYV8N3oZsQM+zKJ6suwwsGravd3ON6SX8YajCf1nUofODgNaVdZmTDA==
-length: 1820
+edSignature: ovuTxr1D4EHAY91ug4FIUIgRX6+xhSDJDmBLXejps5mXsKP3BlOMjYySDw940AMe3zTxnw438DD2bYKSA9ssBQ==
+length: 2763
 -->
