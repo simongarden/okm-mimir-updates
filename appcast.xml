@@ -2,7 +2,14 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.1.11（build 12）</title><pubDate>Sun, 11 Oct 2026 09:53:56 +0000</pubDate><sparkle:version>12</sparkle:version><sparkle:shortVersionString>0.1.11</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新增影片格式支援：AVI、MKV、WMV、FLV 等系統不支援的影片可顯示縮圖。
+    <item><title>OKM Mimir 0.1.12（build 13）</title><pubDate>Sun, 11 Oct 2026 16:08:03 +0000</pubDate><sparkle:version>13</sparkle:version><sparkle:shortVersionString>0.1.12</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新增任務連結：可為檔案與資料夾連結 Asana 任務，縮圖會顯示標記，並可在「任務關聯管理」分頁檢視與清除。
+損毀或由較新版本建立的關聯記錄會個別標示並保留，不影響其他記錄。
+
+批次轉檔新增 WebP 與 AVIF 輸出。
+PNG 新增進階壓縮：無損最佳化與色彩量化，保留 HDR 色彩資訊。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.12-build13/OKM-Mimir-0.1.12-build13-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.12-build13/OKM-Mimir-0.1.12-build13-universal.dmg" length="45245606" type="application/octet-stream" sparkle:edSignature="g09Z6zRYsHApDNe4juqefSLq1tDmLinv2kjI+DflDQ5Di0o0ncCvpXBVXa+I/S9hMDU3IBXWIK7tnlLi/l6NAw=="></enclosure></item><item><title>OKM Mimir 0.1.11（build 12）</title><pubDate>Sun, 11 Oct 2026 09:53:56 +0000</pubDate><sparkle:version>12</sparkle:version><sparkle:shortVersionString>0.1.11</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新增影片格式支援：AVI、MKV、WMV、FLV 等系統不支援的影片可顯示縮圖。
 H.264、HEVC、MJPEG、Xvid 等編碼的影片可在 App 內播放（不重新壓縮畫質）；其他編碼會提示以其他 App 開啟。
 
 新增圖表測試版：Mermaid（.mmd）與 draw.io（.drawio）可預覽與顯示縮圖，Mermaid 可雙擊開啟編輯器。
@@ -27,6 +34,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: GnOIlosq/jMEwX9bojp9AciAOkzs6L/CWb8rf1Pkq2lWwODD6KT9+WLxFURyK62sNsqYismHCeB029g/7uqOAA==
-length: 5158
+edSignature: tB5ERDgNGYlEk8HYvSPQUROQ+tdSEJTrS/60KVHzZfE5alNzeURD3gMYgAXHwGgjTrZjiiZz17oH6MLJK9EkBQ==
+length: 6397
 -->
