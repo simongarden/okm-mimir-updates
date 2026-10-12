@@ -2,7 +2,11 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.1.12（build 13）</title><pubDate>Sun, 11 Oct 2026 16:08:03 +0000</pubDate><sparkle:version>13</sparkle:version><sparkle:shortVersionString>0.1.12</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新增任務連結：可為檔案與資料夾連結 Asana 任務，縮圖會顯示標記，並可在「任務關聯管理」分頁檢視與清除。
+    <item><title>OKM Mimir 0.1.13（build 14）</title><pubDate>Mon, 12 Oct 2026 01:54:41 +0000</pubDate><sparkle:version>14</sparkle:version><sparkle:shortVersionString>0.1.13</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">直式排版：資料夾樹會自動加寬，完整顯示展開中的資料夾名稱；雙擊左右分隔線可重新貼合寬度。
+資料夾樹的長名稱改為以「…」結尾顯示，不再被直接裁切。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.13-build14/OKM-Mimir-0.1.13-build14-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.13-build14/OKM-Mimir-0.1.13-build14-universal.dmg" length="45265608" type="application/octet-stream" sparkle:edSignature="GD1B7lcanFRdZeumWONxCDEzjd/oUoa1GkaoI/xTUaNzTPnQCgRA5ZMusV2cGDhFUkTGjLVn3Y0rW4oiKNuKCw=="></enclosure></item><item><title>OKM Mimir 0.1.12（build 13）</title><pubDate>Sun, 11 Oct 2026 16:08:03 +0000</pubDate><sparkle:version>13</sparkle:version><sparkle:shortVersionString>0.1.12</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新增任務連結：可為檔案與資料夾連結 Asana 任務，縮圖會顯示標記，並可在「任務關聯管理」分頁檢視與清除。
 損毀或由較新版本建立的關聯記錄會個別標示並保留，不影響其他記錄。
 
 批次轉檔新增 WebP 與 AVIF 輸出。
@@ -34,6 +38,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: tB5ERDgNGYlEk8HYvSPQUROQ+tdSEJTrS/60KVHzZfE5alNzeURD3gMYgAXHwGgjTrZjiiZz17oH6MLJK9EkBQ==
-length: 6397
+edSignature: Jn7q51ZInDtwxjXKcY6J1PLEa7VxbNqRQP74j4810rr7RiMhjKcUCkANUV2G09/CO+CpJRhwwOsu5XMPMNmOAQ==
+length: 7476
 -->
