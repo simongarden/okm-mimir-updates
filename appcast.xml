@@ -2,7 +2,11 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.1.16（build 17）</title><pubDate>Mon, 12 Oct 2026 02:59:39 +0000</pubDate><sparkle:version>17</sparkle:version><sparkle:shortVersionString>0.1.16</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">多螢幕：視窗會開回上次使用的螢幕與位置（例如直立螢幕），不再跑到主螢幕。
+    <item><title>OKM Mimir 0.1.17（build 18）</title><pubDate>Mon, 12 Oct 2026 06:09:47 +0000</pubDate><sparkle:version>18</sparkle:version><sparkle:shortVersionString>0.1.17</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">資料夾色彩標籤：側欄資料夾圖示依 Finder 標籤色顯示，選取後仍保留標籤色。
+深色模式：強調色選取底色上的資料夾名稱、未設標籤的資料夾圖示與展開／收合箭頭改為深色，提高辨識度。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.17-build18/OKM-Mimir-0.1.17-build18-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.17-build18/OKM-Mimir-0.1.17-build18-universal.dmg" length="45241102" type="application/octet-stream" sparkle:edSignature="9yEC5mPLiDAjVg9VqUbMhUQnFXVQyiRdQlV1E62ylCzdRFe9MIkfpj7UqbtGY75BpotIJeCkcvKshYhbDjlDCA=="></enclosure></item><item><title>OKM Mimir 0.1.16（build 17）</title><pubDate>Mon, 12 Oct 2026 02:59:39 +0000</pubDate><sparkle:version>17</sparkle:version><sparkle:shortVersionString>0.1.16</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">多螢幕：視窗會開回上次使用的螢幕與位置（例如直立螢幕），不再跑到主螢幕。
 
 程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
 同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.16-build17/OKM-Mimir-0.1.16-build17-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.16-build17/OKM-Mimir-0.1.16-build17-universal.dmg" length="45270366" type="application/octet-stream" sparkle:edSignature="S0EP8z8isn3EK7wCu1O968uFZk88XVOm6ykiOpSEJO5nOWxHNUcxZRUt27B9nsMpG0RrFTqUFDUvK3r0AnFCAQ=="></enclosure></item><item><title>OKM Mimir 0.1.15（build 16）</title><pubDate>Mon, 12 Oct 2026 02:46:09 +0000</pubDate><sparkle:version>16</sparkle:version><sparkle:shortVersionString>0.1.15</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">直式排版：會記住上下分區的比例，重新開啟視窗後沿用。
@@ -48,6 +52,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 3kZ0dw/guDXGQEP0lz5qLDgcgGNoAEvVJUYR6opQ/K9G1L6JTKfvsOSgCWV1dOj0s6wyAbec8QACwOV+4VpJAg==
-length: 10420
+edSignature: 4gJsBlS/6F1jVetOOfRIRbtoQ9kYlGQ5u30ttgwUIXXvDLkkDRr7+PIcV1U9flmShGybtpr5//fO1p0qCCWCBQ==
+length: 11537
 -->
