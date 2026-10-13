@@ -2,7 +2,12 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.1.17（build 18）</title><pubDate>Mon, 12 Oct 2026 06:09:47 +0000</pubDate><sparkle:version>18</sparkle:version><sparkle:shortVersionString>0.1.17</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">資料夾色彩標籤：側欄資料夾圖示依 Finder 標籤色顯示，選取後仍保留標籤色。
+    <item><title>OKM Mimir 0.1.18（build 19）</title><pubDate>Tue, 13 Oct 2026 03:07:37 +0000</pubDate><sparkle:version>19</sparkle:version><sparkle:shortVersionString>0.1.18</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">啟動畫面：產品名稱下方顯示版本號。
+服務選單：移除 Xcode 附的「開發」類別服務（Instruments）。
+介面語言：開始支援英文。系統語言為英文時，批次轉檔視窗顯示英文，其他畫面陸續翻譯。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.18-build19/OKM-Mimir-0.1.18-build19-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.18-build19/OKM-Mimir-0.1.18-build19-universal.dmg" length="45252949" type="application/octet-stream" sparkle:edSignature="4kfSNSXKGMu3liYinJoJoggEiPWd0PgEKk2VKAdwYNE7/LKYSegzOKJxI+SpGtjtuLbDEP1LHlAgf8LHsZKBDA=="></enclosure></item><item><title>OKM Mimir 0.1.17（build 18）</title><pubDate>Mon, 12 Oct 2026 06:09:47 +0000</pubDate><sparkle:version>18</sparkle:version><sparkle:shortVersionString>0.1.17</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">資料夾色彩標籤：側欄資料夾圖示依 Finder 標籤色顯示，選取後仍保留標籤色。
 深色模式：強調色選取底色上的資料夾名稱、未設標籤的資料夾圖示與展開／收合箭頭改為深色，提高辨識度。
 
 程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
@@ -52,6 +57,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 4gJsBlS/6F1jVetOOfRIRbtoQ9kYlGQ5u30ttgwUIXXvDLkkDRr7+PIcV1U9flmShGybtpr5//fO1p0qCCWCBQ==
-length: 11537
+edSignature: luLcS22ZUlBMr9vaPGf2vVaPX+RflHkBZtAaHUiX3ujsNt7oy0BsYrfOmEZBplUSGGT8kU8qb9/Xy98QLvJPBA==
+length: 12656
 -->
