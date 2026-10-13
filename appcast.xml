@@ -2,7 +2,12 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.1.20（build 21）</title><pubDate>Tue, 13 Oct 2026 05:43:32 +0000</pubDate><sparkle:version>21</sparkle:version><sparkle:shortVersionString>0.1.20</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">修正：中文環境下主選單（檔案、編輯、顯示方式等）顯示為英文的問題。
+    <item><title>OKM Mimir 0.1.21（build 22）</title><pubDate>Tue, 13 Oct 2026 15:49:39 +0000</pubDate><sparkle:version>22</sparkle:version><sparkle:shortVersionString>0.1.21</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新增「檔案 › 新增/解析 QRCode…」：輸入網址或文字即時產生 QR 碼，可對調黑白、選 256／512／1024 像素與錯誤修正層級（含 Logo 正中留白），下載 PNG 或 SVG。
+把 QR 碼圖檔拖進預覽區，或在 JPG／PNG／SVG 檔案上按右鍵選「QRCode解析」，即可讀出內容；內容是網址時可按「開啟連結」，確認後以預設瀏覽器開啟。
+主選單「檔案」「顯示方式」中已有對應圖示的項目一併顯示圖示。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.21-build22/OKM-Mimir-0.1.21-build22-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.21-build22/OKM-Mimir-0.1.21-build22-universal.dmg" length="45614645" type="application/octet-stream" sparkle:edSignature="AhObJ28ingbY2Ft3hI79rIjC6CTdsW46kpBoFrGpRT63Q14wqR5auf3xVKlugUywquuRwfz9LKHVwJKK+8lVAQ=="></enclosure></item><item><title>OKM Mimir 0.1.20（build 21）</title><pubDate>Tue, 13 Oct 2026 05:43:32 +0000</pubDate><sparkle:version>21</sparkle:version><sparkle:shortVersionString>0.1.20</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">修正：中文環境下主選單（檔案、編輯、顯示方式等）顯示為英文的問題。
 
 程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
 同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.20-build21/OKM-Mimir-0.1.20-build21-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.20-build21/OKM-Mimir-0.1.20-build21-universal.dmg" length="45382879" type="application/octet-stream" sparkle:edSignature="mfkOX2FLyTenL4bTEtAjxW1R4H+p99OeDt/lWzyttkLmvC8yRRD7MGIMQdIbdjIATYg5/yl97ov66keXE07rBw=="></enclosure></item><item><title>OKM Mimir 0.1.19（build 20）</title><pubDate>Tue, 13 Oct 2026 04:16:23 +0000</pubDate><sparkle:version>20</sparkle:version><sparkle:shortVersionString>0.1.19</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">英文介面：系統語言為英文時，選單、視窗、設定、Inspector、Markdown 編輯器與圖表預覽都顯示英文；其他非中文語言也顯示英文。
@@ -64,6 +69,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: QryrouWuPZEtOzSL+3UZzZf5WDWSFa5KfJDxxNWdua7E5/ua5lPz0EFT9dA9MgJgFE2JZTLXe1jRXnjBaGNTAA==
-length: 14786
+edSignature: kjrE9zn9VJDvYQzuUyM/RsqjKDpTI8xjgg9UurGmGUPnM5/eX9OhAb1qtDMyJtVN6W4gcO5uaguGPtb/tkACDQ==
+length: 16153
 -->
