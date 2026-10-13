@@ -2,7 +2,11 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.1.18（build 19）</title><pubDate>Tue, 13 Oct 2026 03:07:37 +0000</pubDate><sparkle:version>19</sparkle:version><sparkle:shortVersionString>0.1.18</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">啟動畫面：產品名稱下方顯示版本號。
+    <item><title>OKM Mimir 0.1.19（build 20）</title><pubDate>Tue, 13 Oct 2026 04:16:23 +0000</pubDate><sparkle:version>20</sparkle:version><sparkle:shortVersionString>0.1.19</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">英文介面：系統語言為英文時，選單、視窗、設定、Inspector、Markdown 編輯器與圖表預覽都顯示英文；其他非中文語言也顯示英文。
+預設名稱依介面語言：新增資料夾、批次轉檔子資料夾與圖表分頁檔名在英文介面使用英文名稱。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.19-build20/OKM-Mimir-0.1.19-build20-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.19-build20/OKM-Mimir-0.1.19-build20-universal.dmg" length="45412810" type="application/octet-stream" sparkle:edSignature="UUsU7FLW35DplQt6LjB9Rd5PNJ9MPeZZ6a1zzs6ots7rGrA3eNRMAeIinPwmpoRjK0/qhbGyS/3yYpMD0cj9Bg=="></enclosure></item><item><title>OKM Mimir 0.1.18（build 19）</title><pubDate>Tue, 13 Oct 2026 03:07:37 +0000</pubDate><sparkle:version>19</sparkle:version><sparkle:shortVersionString>0.1.18</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">啟動畫面：產品名稱下方顯示版本號。
 服務選單：移除 Xcode 附的「開發」類別服務（Instruments）。
 介面語言：開始支援英文。系統語言為英文時，批次轉檔視窗顯示英文，其他畫面陸續翻譯。
 
@@ -57,6 +61,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: luLcS22ZUlBMr9vaPGf2vVaPX+RflHkBZtAaHUiX3ujsNt7oy0BsYrfOmEZBplUSGGT8kU8qb9/Xy98QLvJPBA==
-length: 12656
+edSignature: XEZ33J3dlkeQTEV0Kq9QU7yMIkkq2KaSxIyKsTjYNnDmVFJxoHUhmbMgwTOR0ESW5TbUfvfok7fXbkavIFaqBg==
+length: 13822
 -->
