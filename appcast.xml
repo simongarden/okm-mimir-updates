@@ -2,7 +2,11 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.1.21（build 22）</title><pubDate>Tue, 13 Oct 2026 15:49:39 +0000</pubDate><sparkle:version>22</sparkle:version><sparkle:shortVersionString>0.1.21</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新增「檔案 › 新增/解析 QRCode…」：輸入網址或文字即時產生 QR 碼，可對調黑白、選 256／512／1024 像素與錯誤修正層級（含 Logo 正中留白），下載 PNG 或 SVG。
+    <item><title>OKM Mimir 0.1.22（build 23）</title><pubDate>Wed, 14 Oct 2026 09:27:41 +0000</pubDate><sparkle:version>23</sparkle:version><sparkle:shortVersionString>0.1.22</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新增：「說明 › Mimir 產品說明」，可在 App 內以獨立視窗查看功能說明、快速鍵與版本紀錄。
+改善：Markdown 與 Mermaid 編輯器會記住上次調整的視窗尺寸與位置（含副螢幕），下次開啟時恢復。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.22-build23/OKM-Mimir-0.1.22-build23-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.22-build23/OKM-Mimir-0.1.22-build23-universal.dmg" length="45629481" type="application/octet-stream" sparkle:edSignature="cwpgg4G5kWY5ZOTeiF7SyHaZcGxQueRHfoh51i7C16CTfdVXWEB8nio1ZJsuxsp+zvpakZfLTqhIzi3lVJkGAw=="></enclosure></item><item><title>OKM Mimir 0.1.21（build 22）</title><pubDate>Tue, 13 Oct 2026 15:49:39 +0000</pubDate><sparkle:version>22</sparkle:version><sparkle:shortVersionString>0.1.21</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新增「檔案 › 新增/解析 QRCode…」：輸入網址或文字即時產生 QR 碼，可對調黑白、選 256／512／1024 像素與錯誤修正層級（含 Logo 正中留白），下載 PNG 或 SVG。
 把 QR 碼圖檔拖進預覽區，或在 JPG／PNG／SVG 檔案上按右鍵選「QRCode解析」，即可讀出內容；內容是網址時可按「開啟連結」，確認後以預設瀏覽器開啟。
 主選單「檔案」「顯示方式」中已有對應圖示的項目一併顯示圖示。
 
@@ -69,6 +73,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: kjrE9zn9VJDvYQzuUyM/RsqjKDpTI8xjgg9UurGmGUPnM5/eX9OhAb1qtDMyJtVN6W4gcO5uaguGPtb/tkACDQ==
-length: 16153
+edSignature: c1+ZspmdDWrKcSqYYAToktA26uDbysbDwrZ6L0CI9DVgWa8FN+8EoPSbxxPQ3imzQFeWOMRUCX324Wmk2HEiAA==
+length: 17272
 -->
