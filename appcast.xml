@@ -2,7 +2,20 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.1.24（build 25）</title><pubDate>Wed, 14 Oct 2026 14:37:03 +0000</pubDate><sparkle:version>25</sparkle:version><sparkle:shortVersionString>0.1.24</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">安全性：移除 AFP 連線方式，「連線伺服器」與設定只使用 SMB；輸入 afp:// 等其他協定時會提示並停止連線。
+    <item><title>OKM Mimir 0.1.25（build 26）</title><pubDate>Wed, 14 Oct 2026 16:40:03 +0000</pubDate><sparkle:version>26</sparkle:version><sparkle:shortVersionString>0.1.25</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新功能：AI 搜尋（測試版功能）
+在工具列搜尋欄輸入文字後按 Return，以自然語意搜尋目前資料夾與所有子資料夾，例如「海邊的夕陽」「紅色的 Logo」「發票」。
+結果依類別列出：檔名相符、圖檔內容相符、圖中文字（OCR）相符、文件內容相符。
+打字時仍即時篩選目前資料夾的檔名；主選單「編輯 › AI 搜尋…」（⇧⌘F）。
+圖檔內容與語意比對需要下載 Google EmbeddingGemma 2 模型（約 388 MB），在「設定 › AI 搜尋」或搜尋結果上方按「下載」。沒有模型時仍可比對檔名與圖中文字。
+網路磁碟資料夾的索引與縮圖一起存放在資料夾內的 .okmmimir_cache，同事開啟同一資料夾時直接取用。
+模型與分析都在這台 Mac 上執行，檔案不會上傳。
+
+新設定：參與測試版
+「設定 › 軟體更新 › 參與測試版」預設關閉。開啟後也會收到搶先發行的測試版；關閉後只接收正式版。
+之後的新版本會先以測試版推出，確認後再發行為正式版。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.25-build26/OKM-Mimir-0.1.25-build26-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.25-build26/OKM-Mimir-0.1.25-build26-universal.dmg" length="95962442" type="application/octet-stream" sparkle:edSignature="uMHuDRcab3KJ51zFlalGuC7Z3VqsSXhiMVNDnEOIMnllOinkysoiyR0TlKyCawbQkCHl4cFbdoRsHrfKDQLDDg=="></enclosure></item><item><title>OKM Mimir 0.1.24（build 25）</title><pubDate>Wed, 14 Oct 2026 14:37:03 +0000</pubDate><sparkle:version>25</sparkle:version><sparkle:shortVersionString>0.1.24</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">安全性：移除 AFP 連線方式，「連線伺服器」與設定只使用 SMB；輸入 afp:// 等其他協定時會提示並停止連線。
 改善：App 圖示在 macOS 15 改為標準圓角外形，與其他 App 一致（先前顯示為方形）。
 修正：在設定中關閉 Liquid Glass 後，內容區的縮圖會全部消失、需重新啟動才恢復。
 
@@ -78,6 +91,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: USF6pEo0+zTujc0xypipwVF16e6wlyGpvI0fEzUC4vAis4t6qgnVtW8AUtAcHN7tlOL7Ka4nBVGgtUr4+5iICg==
-length: 18501
+edSignature: B2vO13cMC9csKnWj0aSKkoFw+1lt3kun3EArfNW6xUzI/dMu3VtGhISAYIO/3GDNG4LCWQ7tDaquaovZ1WcMDA==
+length: 20458
 -->
