@@ -2,7 +2,11 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.1.25（build 26）</title><pubDate>Wed, 14 Oct 2026 16:40:03 +0000</pubDate><sparkle:version>26</sparkle:version><sparkle:shortVersionString>0.1.25</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新功能：AI 搜尋（測試版功能）
+    <item><title>OKM Mimir 0.1.26（build 27）</title><pubDate>Wed, 14 Oct 2026 16:54:42 +0000</pubDate><sparkle:version>27</sparkle:version><sparkle:shortVersionString>0.1.26</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">修正：下載 AI 搜尋模型後，縮圖下方的狀態列高度異常、下方出現空白的問題。
+調整：工具列搜尋欄的提示改為「篩選檔名，↩ 以 AI 進階搜尋」。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.26-build27/OKM-Mimir-0.1.26-build27-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.26-build27/OKM-Mimir-0.1.26-build27-universal.dmg" length="95962806" type="application/octet-stream" sparkle:edSignature="5MbMajpp09uc7nbwrYtcCfXLlLXCTuow302v3CLTTYfrO2aeIj7q6H7MKNtFgapIHqvGIbUu35eL4KJyCRXkBQ=="></enclosure></item><item><title>OKM Mimir 0.1.25（build 26）</title><pubDate>Wed, 14 Oct 2026 16:40:03 +0000</pubDate><sparkle:version>26</sparkle:version><sparkle:shortVersionString>0.1.25</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新功能：AI 搜尋（測試版功能）
 在工具列搜尋欄輸入文字後按 Return，以自然語意搜尋目前資料夾與所有子資料夾，例如「海邊的夕陽」「紅色的 Logo」「發票」。
 結果依類別列出：檔名相符、圖檔內容相符、圖中文字（OCR）相符、文件內容相符。
 打字時仍即時篩選目前資料夾的檔名；主選單「編輯 › AI 搜尋…」（⇧⌘F）。
@@ -91,6 +95,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: B2vO13cMC9csKnWj0aSKkoFw+1lt3kun3EArfNW6xUzI/dMu3VtGhISAYIO/3GDNG4LCWQ7tDaquaovZ1WcMDA==
-length: 20458
+edSignature: i11nlm+zMb4K+06h1r4aucWbPA9/wZ1zjbSAhEAUGPfh1rp1bQKr3a43lYqN2mBYQgW4QGqUO7ISr+83XsiOAQ==
+length: 21519
 -->
