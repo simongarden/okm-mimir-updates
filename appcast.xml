@@ -2,7 +2,12 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.1.22（build 23）</title><pubDate>Wed, 14 Oct 2026 09:27:41 +0000</pubDate><sparkle:version>23</sparkle:version><sparkle:shortVersionString>0.1.22</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新增：「說明 › Mimir 產品說明」，可在 App 內以獨立視窗查看功能說明、快速鍵與版本紀錄。
+    <item><title>OKM Mimir 0.1.24（build 25）</title><pubDate>Wed, 14 Oct 2026 14:37:03 +0000</pubDate><sparkle:version>25</sparkle:version><sparkle:shortVersionString>0.1.24</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">安全性：移除 AFP 連線方式，「連線伺服器」與設定只使用 SMB；輸入 afp:// 等其他協定時會提示並停止連線。
+改善：App 圖示在 macOS 15 改為標準圓角外形，與其他 App 一致（先前顯示為方形）。
+修正：在設定中關閉 Liquid Glass 後，內容區的縮圖會全部消失、需重新啟動才恢復。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.24-build25/OKM-Mimir-0.1.24-build25-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.24-build25/OKM-Mimir-0.1.24-build25-universal.dmg" length="45696621" type="application/octet-stream" sparkle:edSignature="QCYwh8on+hdBscfp92SjV73+Zlm/2ifzbKSZ6okha4CEQO6WH0bOyyKihWamHkrY1CqBC1RP8MfmTNaLyjTxDw=="></enclosure></item><item><title>OKM Mimir 0.1.22（build 23）</title><pubDate>Wed, 14 Oct 2026 09:27:41 +0000</pubDate><sparkle:version>23</sparkle:version><sparkle:shortVersionString>0.1.22</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新增：「說明 › Mimir 產品說明」，可在 App 內以獨立視窗查看功能說明、快速鍵與版本紀錄。
 改善：Markdown 與 Mermaid 編輯器會記住上次調整的視窗尺寸與位置（含副螢幕），下次開啟時恢復。
 
 程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
@@ -73,6 +78,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: c1+ZspmdDWrKcSqYYAToktA26uDbysbDwrZ6L0CI9DVgWa8FN+8EoPSbxxPQ3imzQFeWOMRUCX324Wmk2HEiAA==
-length: 17272
+edSignature: USF6pEo0+zTujc0xypipwVF16e6wlyGpvI0fEzUC4vAis4t6qgnVtW8AUtAcHN7tlOL7Ka4nBVGgtUr4+5iICg==
+length: 18501
 -->
