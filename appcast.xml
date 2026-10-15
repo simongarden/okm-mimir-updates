@@ -2,7 +2,12 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.1.27（build 28）</title><pubDate>Thu, 15 Oct 2026 02:36:23 +0000</pubDate><sparkle:version>28</sparkle:version><sparkle:shortVersionString>0.1.27</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新功能：「管理資料夾快取」新增「向量索引資料」分頁，可查看目前資料夾的 AI 搜尋索引狀態（本機與 NAS），並針對資料夾與所有子資料夾「建立」「更新」或「清除全部」索引；建立時顯示進度條與預估剩餘時間，關閉視窗後在背景繼續。
+    <item><title>OKM Mimir 0.1.28（build 29）</title><pubDate>Thu, 15 Oct 2026 09:40:54 +0000</pubDate><sparkle:version>29</sparkle:version><sparkle:shortVersionString>0.1.28</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">重要修正：從 Dropbox 等位置拷貝或搬移檔案到網路磁碟（NAS）時，會出現拷貝錯誤，而且 NAS 上只留下 0 bytes 的空檔案（資料夾也只拷貝到一部分）。現在與 Finder 相同，略過網路磁碟無法保存的檔案標記，檔案內容完整拷貝。
+
+建議：更新前曾用 OKM Mimir 從 Dropbox 拷貝到 NAS 的檔案，請檢查大小是否為 0，必要時重新拷貝。搬移失敗時原檔仍保留在原處，不會遺失。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.28-build29/OKM-Mimir-0.1.28-build29-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.1.28-build29/OKM-Mimir-0.1.28-build29-universal.dmg" length="96029548" type="application/octet-stream" sparkle:edSignature="izZ0tyAnBKlZzdiIwKRoZLyUJ1bh0sd1sRqkZMFHmgtZ0pFZMX59mXXJGFvdIvt+aRLUGNEM42wsM9BUkxYuCw=="></enclosure></item><item><title>OKM Mimir 0.1.27（build 28）</title><pubDate>Thu, 15 Oct 2026 02:36:23 +0000</pubDate><sparkle:version>28</sparkle:version><sparkle:shortVersionString>0.1.27</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新功能：「管理資料夾快取」新增「向量索引資料」分頁，可查看目前資料夾的 AI 搜尋索引狀態（本機與 NAS），並針對資料夾與所有子資料夾「建立」「更新」或「清除全部」索引；建立時顯示進度條與預估剩餘時間，關閉視窗後在背景繼續。
 
 改善：在 AI 搜尋結果點選檔案時，右側 Inspector 會顯示該檔案的預覽與 metadata（包含子資料夾中的檔案）。
 改善：清除搜尋欄文字或切換到其他資料夾時，自動關閉 AI 搜尋結果。
@@ -101,6 +106,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: Z3oCZ6P8ATd/tpjqqvJPPBpfn3C+MELriUMiToN/Gc9brj15N/CMAjxF/YYjmATIe1POIC0fovqleZpi7QFBCw==
-length: 22945
+edSignature: 9qmqcTxK3HuQcZ4nzRFKnz0WScaGjSm94cd0i/Byp1odMvLDU6Mlw8JkTh5sTAD4TAJvb420tspNWZO19uX9Bw==
+length: 24293
 -->
