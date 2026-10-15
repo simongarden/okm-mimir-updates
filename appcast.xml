@@ -2,7 +2,21 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.1.28（build 29）</title><pubDate>Thu, 15 Oct 2026 09:40:54 +0000</pubDate><sparkle:version>29</sparkle:version><sparkle:shortVersionString>0.1.28</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">重要修正：從 Dropbox 等位置拷貝或搬移檔案到網路磁碟（NAS）時，會出現拷貝錯誤，而且 NAS 上只留下 0 bytes 的空檔案（資料夾也只拷貝到一部分）。現在與 Finder 相同，略過網路磁碟無法保存的檔案標記，檔案內容完整拷貝。
+    <item><title>OKM Mimir 0.2.0（build 30）（測試版）</title><pubDate>Thu, 15 Oct 2026 16:53:06 +0000</pubDate><sparkle:version>30</sparkle:version><sparkle:shortVersionString>0.2.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><sparkle:channel>beta</sparkle:channel><description sparkle:format="plain-text">新功能：尋找相似圖片。在圖片（也可以是 PDF、PSD、影片等能顯示縮圖的檔案）上按右鍵「尋找相似圖片」，或選取後按「編輯 › 尋找相似圖片」（⌥⌘F），在目前資料夾與子資料夾中找出相似素材。
+可切換「內容相近」（主題相近）與「視覺相近」（色調、構圖、質感相近）；幾乎相同的檔案標示「可能重複」，方便整理重複素材。「視覺相近」使用 macOS 內建影像分析，不需要下載模型。
+
+新功能：匯出縮圖目錄表（Contact Sheet）。選取多個檔案後按右鍵或「檔案 › 匯出縮圖目錄表…」，排版成一份 PDF，可顯示檔名、尺寸與 metadata，附勾選框與備註欄，方便列印審稿或寄給客戶勾選。
+
+新功能：批次轉檔支援影片。可把 ProRes 等大型影片轉成 MP4（H.264／HEVC），調整解析度、位元率或目標檔案大小，方便以 LINE、WhatsApp 傳送預覽；也可只提取音軌（AAC、MP3、WAV）。僅處理系統能直接讀取的影片（MOV、MP4、M4V 等）。
+
+改善：未勾選「建立 PDF 相容檔案」的 Illustrator（.ai）檔，現在顯示檔案內的內嵌縮圖；連內嵌縮圖都沒有時顯示檔案圖示並說明原因。
+
+注意：AI 搜尋索引新增「視覺特徵」欄位，舊版索引照常使用、會在背景自動補上。NAS 上的共用索引若被舊版 OKM Mimir 寫回，新增欄位會被移除、之後再自動補做，建議團隊一起更新。
+
+新增第三方元件：LAME（MP3 編碼，LGPL-2.0-or-later），原始碼隨同版本原始碼包提供。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.2.0-build30/OKM-Mimir-0.2.0-build30-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.2.0-build30/OKM-Mimir-0.2.0-build30-universal.dmg" length="96736812" type="application/octet-stream" sparkle:edSignature="hqzCJTIJD9TCK5T/IPPXsU2aDrzeyCiGBbgL7QPsuFZzLQF0HvgDMuDeCQIJxkFq5IWpjW66D6YV1U6oEKzBBw=="></enclosure></item><item><title>OKM Mimir 0.1.28（build 29）</title><pubDate>Thu, 15 Oct 2026 09:40:54 +0000</pubDate><sparkle:version>29</sparkle:version><sparkle:shortVersionString>0.1.28</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">重要修正：從 Dropbox 等位置拷貝或搬移檔案到網路磁碟（NAS）時，會出現拷貝錯誤，而且 NAS 上只留下 0 bytes 的空檔案（資料夾也只拷貝到一部分）。現在與 Finder 相同，略過網路磁碟無法保存的檔案標記，檔案內容完整拷貝。
 
 建議：更新前曾用 OKM Mimir 從 Dropbox 拷貝到 NAS 的檔案，請檢查大小是否為 0，必要時重新拷貝。搬移失敗時原檔仍保留在原處，不會遺失。
 
@@ -106,6 +120,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 9qmqcTxK3HuQcZ4nzRFKnz0WScaGjSm94cd0i/Byp1odMvLDU6Mlw8JkTh5sTAD4TAJvb420tspNWZO19uX9Bw==
-length: 24293
+edSignature: VFh2hlCxRu48y6tV2ihKaKJ12M8/cqrLd5hmd2m2nNd9EjUZrHu2OwiOQ1K2TLFnfiH/YUy22KGX8UF5DFaFAQ==
+length: 26837
 -->
