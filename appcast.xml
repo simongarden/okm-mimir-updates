@@ -2,7 +2,16 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.2.0（build 30）（測試版）</title><pubDate>Thu, 15 Oct 2026 16:53:06 +0000</pubDate><sparkle:version>30</sparkle:version><sparkle:shortVersionString>0.2.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><sparkle:channel>beta</sparkle:channel><description sparkle:format="plain-text">新功能：尋找相似圖片。在圖片（也可以是 PDF、PSD、影片等能顯示縮圖的檔案）上按右鍵「尋找相似圖片」，或選取後按「編輯 › 尋找相似圖片」（⌥⌘F），在目前資料夾與子資料夾中找出相似素材。
+    <item><title>OKM Mimir 0.3.0（build 31）（測試版）</title><pubDate>Fri, 16 Oct 2026 17:23:34 +0000</pubDate><sparkle:version>31</sparkle:version><sparkle:shortVersionString>0.3.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><sparkle:channel>beta</sparkle:channel><description sparkle:format="plain-text">字型預覽：不必安裝就能檢視字型的瀑布流、可變軸、字符表與授權資訊；字型名稱以原始命名顯示（例如「jf open 粉圓」「源泉丸ゴシック」）。
+Lottie 動畫（.json、.lottie）可在 Inspector 播放預覽。
+新增進階搜尋視窗：以圖找圖、文字與參考圖一起搜尋、搜尋素材庫；「圖片描述」以 Apple Intelligence 用自然語言描述參考圖（需 macOS 27）。
+空白鍵預覽：PDF 以文件本身滿版顯示並可捲動各頁；影片可直接播放，附播放控制列。
+縮圖目錄表新增「拍攝位置」：顯示地名、座標與 Apple 地圖小地圖，可設定地圖範圍，點擊可開啟 Apple 地圖；移除備註欄。
+批次轉檔的「原尺寸」會顯示影片尺寸，例如「原尺寸（1080 × 1920）」。
+修正：匯出縮圖目錄表、影片轉檔到網路磁碟（NAS）時失敗並顯示「沒有取用權限」。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.3.0-build31/OKM-Mimir-0.3.0-build31-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.3.0-build31/OKM-Mimir-0.3.0-build31-universal.dmg" length="99658315" type="application/octet-stream" sparkle:edSignature="7w3V6xvVDtYekz46j03oS2rFERTKV+pJ3GJ5XGWb9QELBR8HjxYMvY8nOPqcOvvemLcZIWcBYJeu6toRwgkFCg=="></enclosure></item><item><title>OKM Mimir 0.2.0（build 30）（測試版）</title><pubDate>Thu, 15 Oct 2026 16:53:06 +0000</pubDate><sparkle:version>30</sparkle:version><sparkle:shortVersionString>0.2.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><sparkle:channel>beta</sparkle:channel><description sparkle:format="plain-text">新功能：尋找相似圖片。在圖片（也可以是 PDF、PSD、影片等能顯示縮圖的檔案）上按右鍵「尋找相似圖片」，或選取後按「編輯 › 尋找相似圖片」（⌥⌘F），在目前資料夾與子資料夾中找出相似素材。
 可切換「內容相近」（主題相近）與「視覺相近」（色調、構圖、質感相近）；幾乎相同的檔案標示「可能重複」，方便整理重複素材。「視覺相近」使用 macOS 內建影像分析，不需要下載模型。
 
 新功能：匯出縮圖目錄表（Contact Sheet）。選取多個檔案後按右鍵或「檔案 › 匯出縮圖目錄表…」，排版成一份 PDF，可顯示檔名、尺寸與 metadata，附勾選框與備註欄，方便列印審稿或寄給客戶勾選。
@@ -120,6 +129,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: VFh2hlCxRu48y6tV2ihKaKJ12M8/cqrLd5hmd2m2nNd9EjUZrHu2OwiOQ1K2TLFnfiH/YUy22KGX8UF5DFaFAQ==
-length: 26837
+edSignature: A8V5XQtujMUWihLHA5KLoCI3ufIYpY1dfytmHRdR7bWEhCQWGJv6X2eYq+IR9mctGdmr+9EuXWsamal22eVOCA==
+length: 28690
 -->
