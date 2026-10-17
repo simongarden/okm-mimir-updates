@@ -2,7 +2,14 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.3.0（build 31）</title><pubDate>Fri, 16 Oct 2026 17:23:34 +0000</pubDate><sparkle:version>31</sparkle:version><sparkle:shortVersionString>0.3.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">字型預覽：不必安裝就能檢視字型的瀑布流、可變軸、字符表與授權資訊；字型名稱以原始命名顯示（例如「jf open 粉圓」「源泉丸ゴシック」）。
+    <item><title>OKM Mimir 0.4.0（build 32）（測試版）</title><pubDate>Sat, 17 Oct 2026 04:58:43 +0000</pubDate><sparkle:version>32</sparkle:version><sparkle:shortVersionString>0.4.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><sparkle:channel>beta</sparkle:channel><description sparkle:format="plain-text">新增「音訊轉逐字稿」（測試版，需 Apple 晶片）：在音訊檔或影片按右鍵，產生含時間戳的逐字稿，存在錄音旁邊（例如「會議-20261017-逐字稿.md」）。
+逐字稿可輸出 Markdown（標題、資訊與逐行時間）、SRT、WebVTT、純文字、JSON；中文一律輸出繁體，停頓 2 秒以上另起一段，可加入專有名詞提示。
+語音辨識使用 Whisper large-v3-turbo，全程在這台 Mac 上執行、不上傳音訊；第一次使用時下載模型（約 548 MB），可在「設定 › 音訊轉逐字稿」管理。
+SRT、WebVTT 字幕檔在 Inspector 與空白鍵預覽以文字顯示（自動辨識 UTF-8、Big5 等編碼）。
+格線複選與 Finder 一致：⇧ 點擊選取兩次點擊之間的所有項目；多選時直接點其中一個項目改為只選取該項目。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.4.0-build32/OKM-Mimir-0.4.0-build32-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.4.0-build32/OKM-Mimir-0.4.0-build32-universal.dmg" length="104311771" type="application/octet-stream" sparkle:edSignature="m+shoNqTYbzO/WKd7dhUH40hLzu7qumSyT0zcH263S3CgSfEm6gKd21CW1rH9gDpAD26Z/EBFOdYbtFw3WdXBg=="></enclosure></item><item><title>OKM Mimir 0.3.0（build 31）</title><pubDate>Fri, 16 Oct 2026 17:23:34 +0000</pubDate><sparkle:version>31</sparkle:version><sparkle:shortVersionString>0.3.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">字型預覽：不必安裝就能檢視字型的瀑布流、可變軸、字符表與授權資訊；字型名稱以原始命名顯示（例如「jf open 粉圓」「源泉丸ゴシック」）。
 Lottie 動畫（.json、.lottie）可在 Inspector 播放預覽。
 新增進階搜尋視窗：以圖找圖、文字與參考圖一起搜尋、搜尋素材庫；「圖片描述」以 Apple Intelligence 用自然語言描述參考圖（需 macOS 27）。
 空白鍵預覽：PDF 以文件本身滿版顯示並可捲動各頁；影片可直接播放，附播放控制列。
@@ -129,6 +136,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: zdXl+gNeOeM5jUo0LcGCtRBZalbbtT/fYrY5+YZ17gtyXNzP0eGLQSTq/9PBiBnGxIcnbGsw6rQerq5CtoEaCg==
-length: 28636
+edSignature: oH0cYq/R1krGr2KyCoXJEJx4eP+OIOFdAgrzRd4X/pvWGVcJvDaR4BhT/HnIB6kvB8/WgkGG3Kgh50iXa2KEBQ==
+length: 30397
 -->
