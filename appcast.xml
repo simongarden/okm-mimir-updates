@@ -2,7 +2,7 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.4.0（build 32）（測試版）</title><pubDate>Sat, 17 Oct 2026 04:58:43 +0000</pubDate><sparkle:version>32</sparkle:version><sparkle:shortVersionString>0.4.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><sparkle:channel>beta</sparkle:channel><description sparkle:format="plain-text">新增「音訊轉逐字稿」（測試版，需 Apple 晶片）：在音訊檔或影片按右鍵，產生含時間戳的逐字稿，存在錄音旁邊（例如「會議-20261017-逐字稿.md」）。
+    <item><title>OKM Mimir 0.4.0（build 32）</title><pubDate>Sat, 17 Oct 2026 04:58:43 +0000</pubDate><sparkle:version>32</sparkle:version><sparkle:shortVersionString>0.4.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新增「音訊轉逐字稿」（測試版，需 Apple 晶片）：在音訊檔或影片按右鍵，產生含時間戳的逐字稿，存在錄音旁邊（例如「會議-20261017-逐字稿.md」）。
 逐字稿可輸出 Markdown（標題、資訊與逐行時間）、SRT、WebVTT、純文字、JSON；中文一律輸出繁體，停頓 2 秒以上另起一段，可加入專有名詞提示。
 語音辨識使用 Whisper large-v3-turbo，全程在這台 Mac 上執行、不上傳音訊；第一次使用時下載模型（約 548 MB），可在「設定 › 音訊轉逐字稿」管理。
 SRT、WebVTT 字幕檔在 Inspector 與空白鍵預覽以文字顯示（自動辨識 UTF-8、Big5 等編碼）。
@@ -136,6 +136,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: oH0cYq/R1krGr2KyCoXJEJx4eP+OIOFdAgrzRd4X/pvWGVcJvDaR4BhT/HnIB6kvB8/WgkGG3Kgh50iXa2KEBQ==
-length: 30397
+edSignature: 571FxMr04oEvzoZL6llouDSCC04shyb1adoCVKMu3QlrBv0prCgmJ3Ci0jr+8LhW+gUxp6r6QOZ5nTd1Ov9qCg==
+length: 30343
 -->
