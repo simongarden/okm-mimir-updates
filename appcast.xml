@@ -2,7 +2,7 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.4.2（build 34）（測試版）</title><pubDate>Sat, 17 Oct 2026 12:58:37 +0000</pubDate><sparkle:version>34</sparkle:version><sparkle:shortVersionString>0.4.2</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><sparkle:channel>beta</sparkle:channel><description sparkle:format="plain-text">新增：主選單「工具」，集中常用工具——新增 Mermaid 流程圖、新增/解析 QRCode、批次更名、批次轉檔、匯出縮圖目錄表、音訊轉逐字稿（原本在「檔案」選單，快捷鍵不變）。
+    <item><title>OKM Mimir 0.4.2（build 34）</title><pubDate>Sat, 17 Oct 2026 12:58:37 +0000</pubDate><sparkle:version>34</sparkle:version><sparkle:shortVersionString>0.4.2</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新增：主選單「工具」，集中常用工具——新增 Mermaid 流程圖、新增/解析 QRCode、批次更名、批次轉檔、匯出縮圖目錄表、音訊轉逐字稿（原本在「檔案」選單，快捷鍵不變）。
 新增：「工具 › 安裝 AI Token Status 工具…」，從 GitHub 下載最新版安裝檔到「下載項目」並開啟，把 App 拖到「應用程式」即可完成安裝。
 調整：「新增 Mermaid 流程圖」加上選單圖示。
 
@@ -141,6 +141,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: Dx90DjsarXxuZQbLriEkPk0zvsQhBJG3id562pj+pYjx6cEWPtCODv2ICN5oxBNTF17rVkn+Aj9ta/aNVPOGCA==
-length: 31734
+edSignature: PU2Y/jYqgPCahveqGtwdM9jso10yHC7lcSLHc6UC98XvSkEuNBy2caEED4DCvVBlcwCr2YZZJTVd5+xZlmldCQ==
+length: 31680
 -->
