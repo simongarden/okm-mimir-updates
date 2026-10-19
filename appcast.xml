@@ -2,7 +2,12 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.4.2（build 34）</title><pubDate>Sat, 17 Oct 2026 12:58:37 +0000</pubDate><sparkle:version>34</sparkle:version><sparkle:shortVersionString>0.4.2</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新增：主選單「工具」，集中常用工具——新增 Mermaid 流程圖、新增/解析 QRCode、批次更名、批次轉檔、匯出縮圖目錄表、音訊轉逐字稿（原本在「檔案」選單，快捷鍵不變）。
+    <item><title>OKM Mimir 0.4.3（build 35）</title><pubDate>Mon, 19 Oct 2026 12:55:53 +0000</pubDate><sparkle:version>35</sparkle:version><sparkle:shortVersionString>0.4.3</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新增：批次轉檔只選一個 PDF 時，可把每一頁各轉成一個圖檔（JPEG／PNG，沿用原有格式設定），解析度可選 72／150／300／600 dpi；多頁以「-頁01」編號。
+修正：不支援轉檔的檔案按右鍵選「批次轉檔」時，錯誤開出影片轉檔設定。
+調整：選取中有不支援的檔案，或複選 PDF 時，「批次轉檔」在工具列、右鍵選單與主選單反灰無法使用。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.4.3-build35/OKM-Mimir-0.4.3-build35-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.4.3-build35/OKM-Mimir-0.4.3-build35-universal.dmg" length="104423309" type="application/octet-stream" sparkle:edSignature="7oFFllEjPHHhfogyCq7mc6NPOTbvoDEOPiUefonIeALGvxvzLDOLTkdmkCTDZ6nwDVagz/Qshi/zKzZRF6L6Bw=="></enclosure></item><item><title>OKM Mimir 0.4.2（build 34）</title><pubDate>Sat, 17 Oct 2026 12:58:37 +0000</pubDate><sparkle:version>34</sparkle:version><sparkle:shortVersionString>0.4.2</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新增：主選單「工具」，集中常用工具——新增 Mermaid 流程圖、新增/解析 QRCode、批次更名、批次轉檔、匯出縮圖目錄表、音訊轉逐字稿（原本在「檔案」選單，快捷鍵不變）。
 新增：「工具 › 安裝 AI Token Status 工具…」，從 GitHub 下載最新版安裝檔到「下載項目」並開啟，把 App 拖到「應用程式」即可完成安裝。
 調整：「新增 Mermaid 流程圖」加上選單圖示。
 
@@ -141,6 +146,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: PU2Y/jYqgPCahveqGtwdM9jso10yHC7lcSLHc6UC98XvSkEuNBy2caEED4DCvVBlcwCr2YZZJTVd5+xZlmldCQ==
-length: 31680
+edSignature: 6tvvVGQrE6k3QltJSjmC0rqpm9vLt+I+S6otOhelSRfkYdieVJgkmcM7bsCXsx0I8TAZqevZQOFLB+2GnKNVBg==
+length: 32983
 -->
