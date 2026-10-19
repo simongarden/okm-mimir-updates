@@ -2,7 +2,16 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.4.3（build 35）</title><pubDate>Mon, 19 Oct 2026 12:55:53 +0000</pubDate><sparkle:version>35</sparkle:version><sparkle:shortVersionString>0.4.3</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新增：批次轉檔只選一個 PDF 時，可把每一頁各轉成一個圖檔（JPEG／PNG，沿用原有格式設定），解析度可選 72／150／300／600 dpi；多頁以「-頁01」編號。
+    <item><title>OKM Mimir 0.5.0（build 36）（測試版）</title><pubDate>Mon, 19 Oct 2026 14:48:12 +0000</pubDate><sparkle:version>36</sparkle:version><sparkle:shortVersionString>0.5.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><sparkle:channel>beta</sparkle:channel><description sparkle:format="plain-text">新增：3D 模型預覽（測試版）。
+glb（glTF 2.0 Binary）：縮圖顯示動畫約三分之一處的畫面；Inspector 可拖曳旋轉、捲動縮放，並播放動畫——切換動畫片段、暫停／播放、拖曳時間軸、循環、播放速度（0.25×–2×）與背景（透明格紋／白／黑）。
+glb 支援骨架與形變動畫、多段動畫，以及 Draco、meshopt 壓縮的網格與 KTX2 貼圖；模型在系統網頁引擎的沙盒程序中繪製，上限 200 MB。
+USD（.usdz、.usda、.usdc、.usd）：有動畫的模型縮圖左下角加上播放標記；檔案資訊新增「3D 模型」區段，顯示動畫、長度、影格率、網格／頂點／三角形數、邊界尺寸與上方軸。
+「種類」以中文顯示 USD 模型（例如「USDZ 3D 模型」）。
+
+版本號：新增 3D 模型這個功能群，次版號升為 0.5.0。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.5.0-build36/OKM-Mimir-0.5.0-build36-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.5.0-build36/OKM-Mimir-0.5.0-build36-universal.dmg" length="105233571" type="application/octet-stream" sparkle:edSignature="c6KFhMiUEmnzQnGk1TmzM6TA/s7if0IP/BCaS++GfsoEW2tJExJhEiWV7Q9c+kfcBlPorsNcq7/R/6ONUn/oDg=="></enclosure></item><item><title>OKM Mimir 0.4.3（build 35）</title><pubDate>Mon, 19 Oct 2026 12:55:53 +0000</pubDate><sparkle:version>35</sparkle:version><sparkle:shortVersionString>0.4.3</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新增：批次轉檔只選一個 PDF 時，可把每一頁各轉成一個圖檔（JPEG／PNG，沿用原有格式設定），解析度可選 72／150／300／600 dpi；多頁以「-頁01」編號。
 修正：不支援轉檔的檔案按右鍵選「批次轉檔」時，錯誤開出影片轉檔設定。
 調整：選取中有不支援的檔案，或複選 PDF 時，「批次轉檔」在工具列、右鍵選單與主選單反灰無法使用。
 
@@ -146,6 +155,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 6tvvVGQrE6k3QltJSjmC0rqpm9vLt+I+S6otOhelSRfkYdieVJgkmcM7bsCXsx0I8TAZqevZQOFLB+2GnKNVBg==
-length: 32983
+edSignature: ftzmgfWN9dqiaCSvWWRa5QcU7jTDebJQcxy4VnqA0JAIJmijmVrp1YWo4u1Am0Hb9SF43eaWwxQwuq4Xg2dqDw==
+length: 34772
 -->
