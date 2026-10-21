@@ -2,7 +2,14 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.7.0（build 39）</title><pubDate>Wed, 21 Oct 2026 13:23:36 +0000</pubDate><sparkle:version>39</sparkle:version><sparkle:shortVersionString>0.7.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">縮圖目錄表：輸出清冊
+    <item><title>OKM Mimir 0.7.1（build 40）</title><pubDate>Wed, 21 Oct 2026 13:54:26 +0000</pubDate><sparkle:version>40</sparkle:version><sparkle:shortVersionString>0.7.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">空白鍵預覽：PDF 與 Illustrator 換頁
+
+・PDF 與存成 PDF 相容的 Illustrator（.ai）改為一次顯示一頁，依各頁的版面比例放到最大。
+・多頁時可用 Page Up／Page Down、滑鼠滾輪或觸控板換頁（滾輪一格、觸控板一次滑動換一頁）。
+・下方顯示「第 n／總頁數 頁」與上一頁／下一頁按鈕；方向鍵照舊切換上一個／下一個檔案。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.7.1-build40/OKM-Mimir-0.7.1-build40-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.7.1-build40/OKM-Mimir-0.7.1-build40-universal.dmg" length="105599481" type="application/octet-stream" sparkle:edSignature="fu1XFJb9RT1UJIp0g1BelO1nAO5izoLUtA5puKxVltsOwAz9V1F1uMBX3O+SZBt+DPi5UxeqV2/Q5+6u9cWlBA=="></enclosure></item><item><title>OKM Mimir 0.7.0（build 39）</title><pubDate>Wed, 21 Oct 2026 13:23:36 +0000</pubDate><sparkle:version>39</sparkle:version><sparkle:shortVersionString>0.7.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">縮圖目錄表：輸出清冊
 
 ・頁首新增「專案名稱／用途」第二行；標題與專案名稱很長時自動縮小字級，仍放不下才換行，文字完整印出。
 ・標題與專案名稱依資料夾記住：匯出後，從同一資料夾或其子資料夾開啟時自動帶入。
@@ -185,6 +192,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: ykWmn84j78FBsa8vZRmiOY+agVVDjWyHmAIzd06h6jNW1SwdyfCiAyvyApmOdzF/1FaJNoiGI/SRoTlmew82CA==
-length: 39947
+edSignature: 8FrQxl/j205tCpHNcNKQHZzStk6K1R8rOr9RE7KChmWSdWJopkEsTJq3fEiQAeQdRbdjVu6pam3Fb+QuPOH5Dg==
+length: 41223
 -->
