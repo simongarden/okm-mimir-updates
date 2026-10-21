@@ -2,7 +2,14 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.5.1（build 37）</title><pubDate>Wed, 21 Oct 2026 03:43:00 +0000</pubDate><sparkle:version>37</sparkle:version><sparkle:shortVersionString>0.5.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">設定視窗：上方 Logo、產品名稱、版本與版權資訊固定顯示，只有下方設定項目捲動，避免與視窗標題重疊。
+    <item><title>OKM Mimir 0.6.0（build 38）</title><pubDate>Wed, 21 Oct 2026 06:59:58 +0000</pubDate><sparkle:version>38</sparkle:version><sparkle:shortVersionString>0.6.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新功能：動畫 SVG 預覽。以 SMIL（&lt;animate&gt; 等）或 CSS（@keyframes）製作的動畫 SVG，以及 .svgz 壓縮檔，可在 Inspector 與空白鍵預覽中播放，支援播放／暫停、拖曳時間軸、循環與切換背景（透明／白／黑）。
+縮圖改取動畫結束時的畫面（無限循環的動畫取 1/3 處），並在左下角加上播放標記；以前只畫出第 0 秒，淡入的內容會看不到。
+安全：SVG 在系統網頁引擎的沙盒程序中播放，檔案內的程式碼一律不執行，網路影像、字型等外部資源全部封鎖，不會連線。以程式碼驅動的動畫不會動，預覽中會顯示說明。靜態 SVG 照舊以 Quick Look 預覽。
+
+改善：空白鍵預覽也能直接播放 Lottie 動畫與 glb 3D 模型，控制列與 Inspector 相同；glb 可在預覽中拖曳旋轉、捲動縮放。點在播放器以外的地方才會關閉預覽，空白鍵、Esc 與方向鍵照常作用。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.6.0-build38/OKM-Mimir-0.6.0-build38-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.6.0-build38/OKM-Mimir-0.6.0-build38-universal.dmg" length="105344631" type="application/octet-stream" sparkle:edSignature="Qn9Ih70OGZAHCSCDFqtwC7ewnipzaJQAjWbWgRkzfrJl4wnO1qyuJYpZqHmSsUt1DbuJRdSOOW4/OAide09JBw=="></enclosure></item><item><title>OKM Mimir 0.5.1（build 37）</title><pubDate>Wed, 21 Oct 2026 03:43:00 +0000</pubDate><sparkle:version>37</sparkle:version><sparkle:shortVersionString>0.5.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">設定視窗：上方 Logo、產品名稱、版本與版權資訊固定顯示，只有下方設定項目捲動，避免與視窗標題重疊。
 工具選單：「安裝 AI Token Status 工具…」更名為「OKM Skirr | 選單列工具」，安裝對話框與中英文文字同步更新。
 
 版本號：本次為設定介面修正與工具名稱調整，修訂號由 0.5.0 升為 0.5.1。
@@ -161,6 +168,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 0igEb2SLlzLnD4qfxXq5JBzLmlD20FGsgUlPA3P4uLZc0QiJTdQ/qTKD0vKOWGXP8DkwqsBhHsLRk3MHc532CQ==
-length: 36021
+edSignature: 0KZHgPEsj1rjerYZPmbKcOhYBEOAOLuHBXdZISqzCoUlGjXx13hPzJC+pvh6HZ4favo6V9ajXshlZEIomKrDAg==
+length: 37851
 -->
