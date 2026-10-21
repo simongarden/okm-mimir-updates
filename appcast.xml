@@ -2,7 +2,13 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.5.0（build 36）（測試版）</title><pubDate>Mon, 19 Oct 2026 14:48:12 +0000</pubDate><sparkle:version>36</sparkle:version><sparkle:shortVersionString>0.5.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><sparkle:channel>beta</sparkle:channel><description sparkle:format="plain-text">新增：3D 模型預覽（測試版）。
+    <item><title>OKM Mimir 0.5.1（build 37）</title><pubDate>Wed, 21 Oct 2026 03:43:00 +0000</pubDate><sparkle:version>37</sparkle:version><sparkle:shortVersionString>0.5.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">設定視窗：上方 Logo、產品名稱、版本與版權資訊固定顯示，只有下方設定項目捲動，避免與視窗標題重疊。
+工具選單：「安裝 AI Token Status 工具…」更名為「OKM Skirr | 選單列工具」，安裝對話框與中英文文字同步更新。
+
+版本號：本次為設定介面修正與工具名稱調整，修訂號由 0.5.0 升為 0.5.1。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.5.1-build37/OKM-Mimir-0.5.1-build37-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.5.1-build37/OKM-Mimir-0.5.1-build37-universal.dmg" length="105232663" type="application/octet-stream" sparkle:edSignature="3uo6kenoKwhPPsNP38JqgH2DudjpQgndnfyqH8LBTryhdiR5dDEW9FLetKjlscI6u8+wZnaWwSJBH3I0cFkIBw=="></enclosure></item><item><title>OKM Mimir 0.5.0（build 36）（測試版）</title><pubDate>Mon, 19 Oct 2026 14:48:12 +0000</pubDate><sparkle:version>36</sparkle:version><sparkle:shortVersionString>0.5.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><sparkle:channel>beta</sparkle:channel><description sparkle:format="plain-text">新增：3D 模型預覽（測試版）。
 glb（glTF 2.0 Binary）：縮圖顯示動畫約三分之一處的畫面；Inspector 可拖曳旋轉、捲動縮放，並播放動畫——切換動畫片段、暫停／播放、拖曳時間軸、循環、播放速度（0.25×–2×）與背景（透明格紋／白／黑）。
 glb 支援骨架與形變動畫、多段動畫，以及 Draco、meshopt 壓縮的網格與 KTX2 貼圖；模型在系統網頁引擎的沙盒程序中繪製，上限 200 MB。
 USD（.usdz、.usda、.usdc、.usd）：有動畫的模型縮圖左下角加上播放標記；檔案資訊新增「3D 模型」區段，顯示動畫、長度、影格率、網格／頂點／三角形數、邊界尺寸與上方軸。
@@ -155,6 +161,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: ftzmgfWN9dqiaCSvWWRa5QcU7jTDebJQcxy4VnqA0JAIJmijmVrp1YWo4u1Am0Hb9SF43eaWwxQwuq4Xg2dqDw==
-length: 34772
+edSignature: 0igEb2SLlzLnD4qfxXq5JBzLmlD20FGsgUlPA3P4uLZc0QiJTdQ/qTKD0vKOWGXP8DkwqsBhHsLRk3MHc532CQ==
+length: 36021
 -->
