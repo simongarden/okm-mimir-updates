@@ -2,7 +2,24 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.6.0（build 38）</title><pubDate>Wed, 21 Oct 2026 06:59:58 +0000</pubDate><sparkle:version>38</sparkle:version><sparkle:shortVersionString>0.6.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新功能：動畫 SVG 預覽。以 SMIL（&lt;animate&gt; 等）或 CSS（@keyframes）製作的動畫 SVG，以及 .svgz 壓縮檔，可在 Inspector 與空白鍵預覽中播放，支援播放／暫停、拖曳時間軸、循環與切換背景（透明／白／黑）。
+    <item><title>OKM Mimir 0.7.0（build 39）</title><pubDate>Wed, 21 Oct 2026 13:23:36 +0000</pubDate><sparkle:version>39</sparkle:version><sparkle:shortVersionString>0.7.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">縮圖目錄表：輸出清冊
+
+・頁首新增「專案名稱／用途」第二行；標題與專案名稱很長時自動縮小字級，仍放不下才換行，文字完整印出。
+・標題與專案名稱依資料夾記住：匯出後，從同一資料夾或其子資料夾開啟時自動帶入。
+・新增「逐張備註」分頁：每個檔案可加上 50 字以內的備註，離開輸入框即儲存，按 ↩ 跳到下一張。
+・每格資訊新增「檔案備註」，每一行前面加上欄位名稱（例如「像素大小：6496 × 5315 px」）；有勾選框時各行與檔名對齊。
+・拍攝日期、相機／鏡頭、拍攝位置歸入「拍攝資訊」群組；解析度移到像素大小下方；移除色彩描述檔。
+・排序與縮圖品質併入「版面」；按「匯出 PDF」時再選擇存放位置與檔名。
+・預覽可換頁、放大到 400%，放大後可拖曳移動。
+
+檔案備註
+
+・Inspector「基本資訊」最下方新增「備註」，點一下即可編輯，Esc 取消。
+・NAS 上的備註存在資料夾內，團隊共用；本機資料夾的備註只有自己看得到。
+・在 App 內重新命名、搬移、移到垃圾桶時，備註跟著檔案，復原時也一起回來。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.7.0-build39/OKM-Mimir-0.7.0-build39-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.7.0-build39/OKM-Mimir-0.7.0-build39-universal.dmg" length="105586899" type="application/octet-stream" sparkle:edSignature="Xfh6jp9T4O9hFw5bRjmvrx/aTJwHkMBKuox7ncf59JkP8VdaCPLKq7RAD8PK9mWyRqi6qUm3pGP1aZHUG0UQAQ=="></enclosure></item><item><title>OKM Mimir 0.6.0（build 38）</title><pubDate>Wed, 21 Oct 2026 06:59:58 +0000</pubDate><sparkle:version>38</sparkle:version><sparkle:shortVersionString>0.6.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">新功能：動畫 SVG 預覽。以 SMIL（&lt;animate&gt; 等）或 CSS（@keyframes）製作的動畫 SVG，以及 .svgz 壓縮檔，可在 Inspector 與空白鍵預覽中播放，支援播放／暫停、拖曳時間軸、循環與切換背景（透明／白／黑）。
 縮圖改取動畫結束時的畫面（無限循環的動畫取 1/3 處），並在左下角加上播放標記；以前只畫出第 0 秒，淡入的內容會看不到。
 安全：SVG 在系統網頁引擎的沙盒程序中播放，檔案內的程式碼一律不執行，網路影像、字型等外部資源全部封鎖，不會連線。以程式碼驅動的動畫不會動，預覽中會顯示說明。靜態 SVG 照舊以 Quick Look 預覽。
 
@@ -168,6 +185,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 0KZHgPEsj1rjerYZPmbKcOhYBEOAOLuHBXdZISqzCoUlGjXx13hPzJC+pvh6HZ4favo6V9ajXshlZEIomKrDAg==
-length: 37851
+edSignature: ykWmn84j78FBsa8vZRmiOY+agVVDjWyHmAIzd06h6jNW1SwdyfCiAyvyApmOdzF/1FaJNoiGI/SRoTlmew82CA==
+length: 39947
 -->
