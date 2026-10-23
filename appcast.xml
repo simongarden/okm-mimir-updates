@@ -2,7 +2,25 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.7.1（build 40）</title><pubDate>Wed, 21 Oct 2026 13:54:26 +0000</pubDate><sparkle:version>40</sparkle:version><sparkle:shortVersionString>0.7.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">空白鍵預覽：PDF 與 Illustrator 換頁
+    <item><title>OKM Mimir 0.8.0（build 41）</title><pubDate>Fri, 23 Oct 2026 08:51:46 +0000</pubDate><sparkle:version>41</sparkle:version><sparkle:shortVersionString>0.8.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">QRCode／條碼解析：支援一維碼、PDF417、Aztec 與登機證
+
+・「新增/解析 QRCode」除了 QR 碼，也能解析一維碼（EAN-13、EAN-8、UPC-E、Code 128、Code 39、Code 93、ITF-14、Interleaved 2 of 5、Codabar、GS1 DataBar、MSI Plessey）與 PDF417、Aztec、Data Matrix、Micro QR 等二維條碼。
+・取消圖檔 2048×2048 像素的限制：大照片會分塊掃描，畫面中的小條碼也找得到。
+・一張圖有多個條碼時列出全部結果，按「填入內容」可改用其中一筆。
+・登機證條碼（IATA BCBP）另列旅客、航班、航線、日期、艙等／座位、訂位代號與報到序號；只在視窗中顯示，不另外儲存。
+
+條碼版面
+
+・解析到 QR 碼以外的條碼時，視窗改為左右兩欄：左欄依原規格重繪條碼，右欄為內容與解析結果。
+・「下載條碼」把左欄的條碼存成 SVG。
+・「內容轉QRCode」以目前的內容開啟新的 QRCode 設定視窗。
+
+其他
+
+・右鍵選單改名「QRCode／條碼解析」，並支援 HEIC、TIFF、WebP、GIF、BMP 圖檔。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.8.0-build41/OKM-Mimir-0.8.0-build41-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.8.0-build41/OKM-Mimir-0.8.0-build41-universal.dmg" length="105766602" type="application/octet-stream" sparkle:edSignature="PGITY+A8vDdOxeHdH2xOwAjwSpFrYKliqxtb3xBK86/NDHiulkGy2ivjxg7zKxch+M6KPniW34zH86mvo/OGCg=="></enclosure></item><item><title>OKM Mimir 0.7.1（build 40）</title><pubDate>Wed, 21 Oct 2026 13:54:26 +0000</pubDate><sparkle:version>40</sparkle:version><sparkle:shortVersionString>0.7.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">空白鍵預覽：PDF 與 Illustrator 換頁
 
 ・PDF 與存成 PDF 相容的 Illustrator（.ai）改為一次顯示一頁，依各頁的版面比例放到最大。
 ・多頁時可用 Page Up／Page Down、滑鼠滾輪或觸控板換頁（滾輪一格、觸控板一次滑動換一頁）。
@@ -192,6 +210,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 8FrQxl/j205tCpHNcNKQHZzStk6K1R8rOr9RE7KChmWSdWJopkEsTJq3fEiQAeQdRbdjVu6pam3Fb+QuPOH5Dg==
-length: 41223
+edSignature: tKyh0Jo7pDss8WaNCU/ISVO9PeFfY4nzQ8kER/lQrbrdte95hnpsfksvfwPZ4bTLTMHiOpaYYNYC2Qv9jY60BQ==
+length: 43172
 -->
