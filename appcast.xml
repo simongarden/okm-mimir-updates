@@ -2,7 +2,14 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.8.0（build 41）</title><pubDate>Fri, 23 Oct 2026 08:51:46 +0000</pubDate><sparkle:version>41</sparkle:version><sparkle:shortVersionString>0.8.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">QRCode／條碼解析：支援一維碼、PDF417、Aztec 與登機證
+    <item><title>OKM Mimir 0.8.1（build 42）</title><pubDate>Sun, 25 Oct 2026 06:33:20 +0000</pubDate><sparkle:version>42</sparkle:version><sparkle:shortVersionString>0.8.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">縮圖目錄表
+
+・標題新增「標題留空」：不印標題，有填專案名稱時移到第一行；這個選擇會依資料夾記住。
+・「檔名」改為可勾選的項目。不勾選檔名時，第一個勾選的資訊項目會以檔名的字級接在編號後面（例如「☐ 1. 通用版」），其餘項目照常以小字印在下方。
+・檔案備註只印備註內容，不再顯示「檔案備註：」字樣。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v0.8.1-build42/OKM-Mimir-0.8.1-build42-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v0.8.1-build42/OKM-Mimir-0.8.1-build42-universal.dmg" length="105785224" type="application/octet-stream" sparkle:edSignature="zYH1HWrqS4KH2y1p/w16Ml293oaOUoenbOxEJK1NgwYmW3Sq03cGuOYMAEsrJyoMVCrFiCAyltrxPs2C6FlmBQ=="></enclosure></item><item><title>OKM Mimir 0.8.0（build 41）</title><pubDate>Fri, 23 Oct 2026 08:51:46 +0000</pubDate><sparkle:version>41</sparkle:version><sparkle:shortVersionString>0.8.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">QRCode／條碼解析：支援一維碼、PDF417、Aztec 與登機證
 
 ・「新增/解析 QRCode」除了 QR 碼，也能解析一維碼（EAN-13、EAN-8、UPC-E、Code 128、Code 39、Code 93、ITF-14、Interleaved 2 of 5、Codabar、GS1 DataBar、MSI Plessey）與 PDF417、Aztec、Data Matrix、Micro QR 等二維條碼。
 ・取消圖檔 2048×2048 像素的限制：大照片會分塊掃描，畫面中的小條碼也找得到。
@@ -210,6 +217,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: tKyh0Jo7pDss8WaNCU/ISVO9PeFfY4nzQ8kER/lQrbrdte95hnpsfksvfwPZ4bTLTMHiOpaYYNYC2Qv9jY60BQ==
-length: 43172
+edSignature: J7EjVb2HzuIZhkCYSiA7EYFnM9RjiLnmcdhos5dvAgsO4BszeQjWcFuOKeQdkNUU01KZjzUabUqALCZlGKauDw==
+length: 44466
 -->
