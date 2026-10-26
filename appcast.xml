@@ -2,7 +2,40 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 0.8.1（build 42）</title><pubDate>Sun, 25 Oct 2026 06:33:20 +0000</pubDate><sparkle:version>42</sparkle:version><sparkle:shortVersionString>0.8.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">縮圖目錄表
+    <item><title>OKM Mimir 1.0.11（build 54）（測試版）</title><pubDate>Mon, 26 Oct 2026 16:55:19 +0000</pubDate><sparkle:version>54</sparkle:version><sparkle:shortVersionString>1.0.11</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><sparkle:channel>beta</sparkle:channel><description sparkle:format="plain-text">OKM Mimir 1.0 測試版：全新介面
+
+主視窗
+- 介面重新設計：單一工具列、可點擊與輸入的路徑列、內容標題列的種類篩選與排序、狀態列的圖片背景與縮圖大小
+- 主視窗只用無彩度灰，不讓介面顏色影響看圖；資料夾保留 Finder 標籤色
+- 側欄新增「標籤」區：點一下列出目前資料夾中帶該標籤的項目
+- Inspector 可新增、移除 Finder 標籤，與 Finder 同步
+- 檢視（⌘3）可切換符合視窗、100%、200%
+- iCloud 雲碟、Dropbox 中只在雲端的檔案加上雲朵標記，瀏覽時不會觸發下載
+- 唯讀的網路磁碟在上方顯示提示
+- 點檔名直接改名，名稱無效時即時說明原因
+- 拷貝或搬移遇到同名項目時，可選擇保留兩者、略過或取代
+
+預覽與檔案資訊
+- 空白鍵預覽改為置中框，可切換符合視窗與 100%，影片控制列不再蓋住畫面
+- Inspector 加入色階分布、拍攝地點與小地圖、字幕清單、USD 3D 檢視
+- PDF 縮圖與預覽會畫出標註，修正「預覽程式」加上的中文文字標註顯示成亂碼
+
+AI 搜尋
+- 文字搜尋、以圖搜尋、圖加文字共用同一個結果畫面
+- Inspector 顯示每個結果的相符原因
+
+編輯器與對話框
+- Markdown 自動儲存，可切換編輯、分割、預覽
+- Mermaid 圖像化編輯器支援流程圖與狀態圖
+- 批次更名、批次轉檔、縮圖目錄表、QRCode、音訊轉逐字稿依新設計調整
+- 新增「授權與原始碼」視窗，產品說明可搜尋
+
+修正
+- 網路磁碟上第一次進入照片很多的資料夾時不再顯示讀取逾時
+- 新建的 Markdown 文件可直接編輯
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v1.0.11-build54/OKM-Mimir-1.0.11-build54-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v1.0.11-build54/OKM-Mimir-1.0.11-build54-universal.dmg" length="107114087" type="application/octet-stream" sparkle:edSignature="oVqkx/Z2MyaVq6XbrZUxyZqB+MeN3wd3w8YB7o1GZ4SCpZqYQHs+MzgCzerTfZIH5SOnvfNGCH6vIageYXwEDQ=="></enclosure></item><item><title>OKM Mimir 0.8.1（build 42）</title><pubDate>Sun, 25 Oct 2026 06:33:20 +0000</pubDate><sparkle:version>42</sparkle:version><sparkle:shortVersionString>0.8.1</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">縮圖目錄表
 
 ・標題新增「標題留空」：不印標題，有填專案名稱時移到第一行；這個選擇會依資料夾記住。
 ・「檔名」改為可勾選的項目。不勾選檔名時，第一個勾選的資訊項目會以檔名的字級接在編號後面（例如「☐ 1. 通用版」），其餘項目照常以小字印在下方。
@@ -217,6 +250,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: J7EjVb2HzuIZhkCYSiA7EYFnM9RjiLnmcdhos5dvAgsO4BszeQjWcFuOKeQdkNUU01KZjzUabUqALCZlGKauDw==
-length: 44466
+edSignature: c+C6Nik76aR9/BYOvzYvVMmzEZorh08QGeVTiMxL0B/IsLP1We0igpNq5k7zFN7lBqu3c2gs7dBwXg3oDHhRBA==
+length: 47061
 -->
