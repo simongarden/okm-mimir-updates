@@ -2,7 +2,19 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 1.0.16（build 59）</title><pubDate>Tue, 27 Oct 2026 15:37:25 +0000</pubDate><sparkle:version>59</sparkle:version><sparkle:shortVersionString>1.0.16</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">OKM Mimir 1.0：全新介面
+    <item><title>OKM Mimir 1.0.17（build 60）</title><pubDate>Thu, 29 Oct 2026 17:23:30 +0000</pubDate><sparkle:version>60</sparkle:version><sparkle:shortVersionString>1.0.17</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">OKM Mimir 1.0.17
+
+・拷貝整個資料夾時，背景工作面板逐一顯示正在處理的檔案（資料夾/子資料夾/檔名）。
+・拷貝的進度改依檔案大小計算：開始前先計算來源總大小（可取消），大型資料夾與大檔案的進度條也會穩定前進。
+・取消拷貝會在下一個檔案前停止，並移除只拷貝一半的項目。
+・側欄資料夾按右鍵新增「重新命名…」；改名後目前瀏覽的位置與釘選會跟著更新。
+
+修正
+・拷貝期間開著背景工作面板時，面板不再來回跳動。
+・側欄資料夾第一次讀取失敗（例如等待隱私權限或網路磁碟逾時）後，子資料夾與展開箭頭不再消失。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v1.0.17-build60/OKM-Mimir-1.0.17-build60-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v1.0.17-build60/OKM-Mimir-1.0.17-build60-universal.dmg" length="107185063" type="application/octet-stream" sparkle:edSignature="f+FlyQ9NDMg29oimy0lbAFW+ADeumpjZM+D3CbFQAc8AfpXJTDxdqdSOXJluRaazBiZEEYjWEAlEZHG3ZHXZCA=="></enclosure></item><item><title>OKM Mimir 1.0.16（build 59）</title><pubDate>Tue, 27 Oct 2026 15:37:25 +0000</pubDate><sparkle:version>59</sparkle:version><sparkle:shortVersionString>1.0.16</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">OKM Mimir 1.0：全新介面
 
 主視窗
 - 介面重新設計：單一工具列、可點擊與輸入的路徑列、內容標題列的種類篩選與排序、狀態列的圖片背景與縮圖大小
@@ -287,6 +299,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 5kf4ancdY8dxAkEA/p8a0p951vPUjMpjwArHgPsENhhGzvLLirefUMyAIwVbK+l2ICzAlDi7BLCUbsPfTFx0Dw==
-length: 49874
+edSignature: q0EGQfjctE29m+CdFrAXdHrkVvJV+E8RHqtD4rMu0Abn6Ay5g46G4QgXfIW7ganp5RZtGnRnwvntwX1ta8GuCQ==
+length: 51454
 -->
