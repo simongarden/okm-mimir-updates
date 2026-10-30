@@ -2,7 +2,13 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 1.0.17（build 60）</title><pubDate>Thu, 29 Oct 2026 17:23:30 +0000</pubDate><sparkle:version>60</sparkle:version><sparkle:shortVersionString>1.0.17</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">OKM Mimir 1.0.17
+    <item><title>OKM Mimir 1.0.18（build 61）</title><pubDate>Fri, 30 Oct 2026 13:20:15 +0000</pubDate><sparkle:version>61</sparkle:version><sparkle:shortVersionString>1.0.18</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">OKM Mimir 1.0.18
+
+修正
+・在雲端硬碟（Google Drive、Dropbox 等）或正在背景拷貝的資料夾中，點選側欄的子資料夾時，側欄已選取新資料夾、內容卻停在原資料夾的問題。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v1.0.18-build61/OKM-Mimir-1.0.18-build61-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v1.0.18-build61/OKM-Mimir-1.0.18-build61-universal.dmg" length="107184822" type="application/octet-stream" sparkle:edSignature="UkmCNhQiYpCkzPn4ayz6fu6wdwz5uP5GjpvWTDEPal/2gf5lOJorEK0lUulvLm38PGtdCuzaWW6biSDLPdmGAQ=="></enclosure></item><item><title>OKM Mimir 1.0.17（build 60）</title><pubDate>Thu, 29 Oct 2026 17:23:30 +0000</pubDate><sparkle:version>60</sparkle:version><sparkle:shortVersionString>1.0.17</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">OKM Mimir 1.0.17
 
 ・拷貝整個資料夾時，背景工作面板逐一顯示正在處理的檔案（資料夾/子資料夾/檔名）。
 ・拷貝的進度改依檔案大小計算：開始前先計算來源總大小（可取消），大型資料夾與大檔案的進度條也會穩定前進。
@@ -299,6 +305,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: q0EGQfjctE29m+CdFrAXdHrkVvJV+E8RHqtD4rMu0Abn6Ay5g46G4QgXfIW7ganp5RZtGnRnwvntwX1ta8GuCQ==
-length: 51454
+edSignature: JaQ3fHIZniR3c0oa0jtZQH9AztHGr9I5gEuKKbAtVpJnoLm+3uTzGPkGHvaaRVMDyOltrqjlfQMNkKuGuUUeAg==
+length: 52536
 -->
