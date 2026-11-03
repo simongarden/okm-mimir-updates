@@ -2,7 +2,14 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 1.0.18（build 61）</title><pubDate>Fri, 30 Oct 2026 13:20:15 +0000</pubDate><sparkle:version>61</sparkle:version><sparkle:shortVersionString>1.0.18</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">OKM Mimir 1.0.18
+    <item><title>OKM Mimir 1.0.19（build 62）</title><pubDate>Tue, 03 Nov 2026 15:47:31 +0000</pubDate><sparkle:version>62</sparkle:version><sparkle:shortVersionString>1.0.19</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">OKM Mimir 1.0.19 更新內容
+
+・新增專案資料夾：在資料夾上按右鍵選「新增專案資料夾…」，一次建立四個子資料夾——「0.背景資料」（藍色標籤，內附專案資料夾使用規則文件，已填入專案資料夾路徑）、「1.開發與規畫文件」（藍色標籤）、「2.製作資料」、「3.部署與發行」。⌘Z 可整個還原。
+・右鍵設定標籤色：檔案與資料夾的右鍵選單加入與 Finder 相同的七個標籤色點，滑過顯示名稱，點一下加入或移除標籤，並與 Finder 同步。
+・「新增▾」與「工具」選單的順序改為 QRCode、Markdown、Mermaid。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v1.0.19-build62/OKM-Mimir-1.0.19-build62-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v1.0.19-build62/OKM-Mimir-1.0.19-build62-universal.dmg" length="107227769" type="application/octet-stream" sparkle:edSignature="zj6s4sTut67BzZxtJRUlQIvuoh3MONgP+SdJNASDnOxbu1lMia8Y5WI8sjyf7TlAuTSYWtqfKAdGwlCSCaOiDw=="></enclosure></item><item><title>OKM Mimir 1.0.18（build 61）</title><pubDate>Fri, 30 Oct 2026 13:20:15 +0000</pubDate><sparkle:version>61</sparkle:version><sparkle:shortVersionString>1.0.18</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">OKM Mimir 1.0.18
 
 修正
 ・在雲端硬碟（Google Drive、Dropbox 等）或正在背景拷貝的資料夾中，點選側欄的子資料夾時，側欄已選取新資料夾、內容卻停在原資料夾的問題。
@@ -305,6 +312,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: JaQ3fHIZniR3c0oa0jtZQH9AztHGr9I5gEuKKbAtVpJnoLm+3uTzGPkGHvaaRVMDyOltrqjlfQMNkKuGuUUeAg==
-length: 52536
+edSignature: uxWcy75nktNJxZZRT8/jyUwoOxZ0WYqkl4tM6qoSqfoAKm7E09oDyIkzLJaJnN8aWisWH9Z8iU0t/LUas25tBg==
+length: 54065
 -->
