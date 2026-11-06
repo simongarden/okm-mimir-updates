@@ -2,7 +2,24 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 1.0.19（build 62）</title><pubDate>Tue, 03 Nov 2026 15:47:31 +0000</pubDate><sparkle:version>62</sparkle:version><sparkle:shortVersionString>1.0.19</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">OKM Mimir 1.0.19 更新內容
+    <item><title>OKM Mimir 1.0.20（build 63）</title><pubDate>Fri, 06 Nov 2026 08:35:29 +0000</pubDate><sparkle:version>63</sparkle:version><sparkle:shortVersionString>1.0.20</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">OKM Mimir 1.0.20
+
+側欄
+- 釘選項目改為跳轉捷徑：點一下即前往該資料夾，並在「位置」的資料夾樹中展開到對應位置，不再於釘選區展開子資料夾。
+- 正在瀏覽的資料夾被刪除或移走時，自動回到仍存在的上層資料夾，不再顯示讀取錯誤與舊的檔案清單。
+
+新增專案資料夾
+- 整套結構先在暫存資料夾建好、確認四個子資料夾都在之後才出現，不會再留下缺少子資料夾的專案資料夾。
+- 網路磁碟不支援色彩標籤時照常建立，只是不加標籤。
+
+移除功能
+- 移除 Asana 任務關聯：右鍵連結任務、縮圖上的連結圖示、狀態列的已連結任務數、Inspector 的「任務關聯」區段，以及「管理資料夾快取」的任務關聯分頁。NAS 上既有的關聯記錄不會刪除，也不會顯示。
+
+其他修正
+- 長寬 DPI 不同的影像轉成 PDF 時，頁面不再變形。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v1.0.20-build63/OKM-Mimir-1.0.20-build63-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v1.0.20-build63/OKM-Mimir-1.0.20-build63-universal.dmg" length="107005397" type="application/octet-stream" sparkle:edSignature="FLXGXIj5zsD3fZ0EeBHUPLihsIeZElH1SaYNe9rD3VlrzMcZ3CFt+0wxTzH2uhuqpl+TPKxsSusIEjXuMtgfCQ=="></enclosure></item><item><title>OKM Mimir 1.0.19（build 62）</title><pubDate>Tue, 03 Nov 2026 15:47:31 +0000</pubDate><sparkle:version>62</sparkle:version><sparkle:shortVersionString>1.0.19</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">OKM Mimir 1.0.19 更新內容
 
 ・新增專案資料夾：在資料夾上按右鍵選「新增專案資料夾…」，一次建立四個子資料夾——「0.背景資料」（藍色標籤，內附專案資料夾使用規則文件，已填入專案資料夾路徑）、「1.開發與規畫文件」（藍色標籤）、「2.製作資料」、「3.部署與發行」。⌘Z 可整個還原。
 ・右鍵設定標籤色：檔案與資料夾的右鍵選單加入與 Finder 相同的七個標籤色點，滑過顯示名稱，點一下加入或移除標籤，並與 Finder 同步。
@@ -312,6 +329,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: uxWcy75nktNJxZZRT8/jyUwoOxZ0WYqkl4tM6qoSqfoAKm7E09oDyIkzLJaJnN8aWisWH9Z8iU0t/LUas25tBg==
-length: 54065
+edSignature: jN3Z0vWVnWmxrHYM1KlBT02lCi+J3KGlcN2hTq9EZLY9BNNUU+xqWRfVyzvaySEt/kZTqFxOARFBzDcZLE3ZCw==
+length: 55874
 -->
