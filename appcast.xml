@@ -2,7 +2,17 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 1.0.20（build 63）</title><pubDate>Fri, 06 Nov 2026 08:35:29 +0000</pubDate><sparkle:version>63</sparkle:version><sparkle:shortVersionString>1.0.20</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">OKM Mimir 1.0.20
+    <item><title>OKM Mimir 1.0.21（build 64）</title><pubDate>Mon, 09 Nov 2026 13:25:09 +0000</pubDate><sparkle:version>64</sparkle:version><sparkle:shortVersionString>1.0.21</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">OKM Mimir 1.0.21
+
+新增：壓縮 PDF
+・選取一或多個 PDF，從右鍵、工具列「批次」、主選單「工具」或 Inspector 開啟「壓縮 PDF」。
+・依用途選擇品質：最小檔案、一般分享（預設）、辦公列印、高品質，或自訂解析度、JPEG 品質與色彩。
+・只壓縮影像，文字與向量圖形維持清楚、可搜尋；另存為「檔名-壓縮.pdf」，原檔不變，沒有變小時不儲存。
+・壓縮前提醒會受影響的內容：數位簽章、PDF/A、PDF/X、CMYK 與特別色、表單欄位、無障礙標記；有密碼保護的 PDF 會略過。
+・背景工作逐頁顯示進度與預估剩餘時間，完成後顯示壓縮前後的大小，可隨時取消。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v1.0.21-build64/OKM-Mimir-1.0.21-build64-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v1.0.21-build64/OKM-Mimir-1.0.21-build64-universal.dmg" length="107232769" type="application/octet-stream" sparkle:edSignature="NHhIMY+AN2C1KlffjHlfI85RKJXNYrt3NcIctRRjNj/8Y2D0hC4iajn90XpBhXsSeENMMLUEjOBG00pTa6fwBg=="></enclosure></item><item><title>OKM Mimir 1.0.20（build 63）</title><pubDate>Fri, 06 Nov 2026 08:35:29 +0000</pubDate><sparkle:version>63</sparkle:version><sparkle:shortVersionString>1.0.20</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">OKM Mimir 1.0.20
 
 側欄
 - 釘選項目改為跳轉捷徑：點一下即前往該資料夾，並在「位置」的資料夾樹中展開到對應位置，不再於釘選區展開子資料夾。
@@ -329,6 +339,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: jN3Z0vWVnWmxrHYM1KlBT02lCi+J3KGlcN2hTq9EZLY9BNNUU+xqWRfVyzvaySEt/kZTqFxOARFBzDcZLE3ZCw==
-length: 55874
+edSignature: Fmceqp23v8ZyZaZWCJLfK1ihs04Wua64kycp+j9hExBIvSFj1A5v9+7FkWIp4m1HOc7PasRF7n0Br+tiLUk1Aw==
+length: 57467
 -->
