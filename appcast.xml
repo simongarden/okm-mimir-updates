@@ -2,7 +2,12 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 1.0.21（build 64）</title><pubDate>Mon, 09 Nov 2026 13:25:09 +0000</pubDate><sparkle:version>64</sparkle:version><sparkle:shortVersionString>1.0.21</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">OKM Mimir 1.0.21
+    <item><title>OKM Mimir 1.0.22（build 65）</title><pubDate>Wed, 11 Nov 2026 10:58:00 +0000</pubDate><sparkle:version>65</sparkle:version><sparkle:shortVersionString>1.0.22</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">修正
+
+・修正長時間使用後偶發的意外結束：以 Quick Look 顯示預覽的檔案，在資訊面板關閉或重建時可能導致 App 中止。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v1.0.22-build65/OKM-Mimir-1.0.22-build65-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v1.0.22-build65/OKM-Mimir-1.0.22-build65-universal.dmg" length="107232104" type="application/octet-stream" sparkle:edSignature="dQNja48x2LmjvQ11jodZV/92YMxiHDPcuQLUtvRBfbz97C1G7bxztJQqOW0ulyrTFs2FHCZsd3iWvfOp0bQdAw=="></enclosure></item><item><title>OKM Mimir 1.0.21（build 64）</title><pubDate>Mon, 09 Nov 2026 13:25:09 +0000</pubDate><sparkle:version>64</sparkle:version><sparkle:shortVersionString>1.0.21</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">OKM Mimir 1.0.21
 
 新增：壓縮 PDF
 ・選取一或多個 PDF，從右鍵、工具列「批次」、主選單「工具」或 Inspector 開啟「壓縮 PDF」。
@@ -339,6 +344,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: Fmceqp23v8ZyZaZWCJLfK1ihs04Wua64kycp+j9hExBIvSFj1A5v9+7FkWIp4m1HOc7PasRF7n0Br+tiLUk1Aw==
-length: 57467
+edSignature: 6uOtRyO6GVkm686AL/apaPhi5kqDqWevGHQ1mE7UEMV2usxCs83N9yEkC4c09wULD2xkiapw35P+ZUamsXKlAA==
+length: 58490
 -->
