@@ -2,7 +2,30 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 1.0.22（build 65）</title><pubDate>Wed, 11 Nov 2026 10:58:00 +0000</pubDate><sparkle:version>65</sparkle:version><sparkle:shortVersionString>1.0.22</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">修正
+    <item><title>OKM Mimir 1.1.0（build 66）（測試版）</title><pubDate>Wed, 11 Nov 2026 13:36:38 +0000</pubDate><sparkle:version>66</sparkle:version><sparkle:shortVersionString>1.1.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><sparkle:channel>beta</sparkle:channel><description sparkle:format="plain-text">主視窗介面改版（測試版）
+
+資料夾
+・資料夾改為毛玻璃檔案夾，夾內放著裡面的檔案縮圖，隔著半透明的前片可以看到內容。
+・選取資料夾（或拖曳檔案到它上面）時，檔案夾以動態向前掀開；未選取時收合微開。
+・有 Finder 標籤的資料夾使用標籤色。
+
+格線
+・每個項目是一張圓角卡片；選取外框改細、改淡，不搶過內容。
+
+側欄
+・左側新增功能鍵列：連線伺服器、重新整理、背景工作、管理資料夾快取。
+・點背景工作會在按鈕旁展開工作清單（進度條、細節、預估剩餘時間、取消）；有工作執行時顯示數量。
+
+工具列
+・精簡為路徑與搜尋、新增、批次；路徑與搜尋合為一條。
+・搜尋預設收成放大鏡，點一下或按 ⌘F 在原位展開，路徑讓出寬度；按 Esc 收回。
+・顯示方式（格線／清單／檢視）改在下方狀態列切換。
+・工具列的自訂配置會重設一次。
+
+這是介面改版的第一個測試版，歡迎回報使用上的問題。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v1.1.0-build66/OKM-Mimir-1.1.0-build66-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v1.1.0-build66/OKM-Mimir-1.1.0-build66-universal.dmg" length="107357768" type="application/octet-stream" sparkle:edSignature="BNgb6d+MI6/YOkZJJGof3tWIxCR4+1LRSEjm4kNiS3XulwuCk7FHUumdPB6X584O1BUhMTH1Os0yNhIx89yADA=="></enclosure></item><item><title>OKM Mimir 1.0.22（build 65）</title><pubDate>Wed, 11 Nov 2026 10:58:00 +0000</pubDate><sparkle:version>65</sparkle:version><sparkle:shortVersionString>1.0.22</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">修正
 
 ・修正長時間使用後偶發的意外結束：以 Quick Look 顯示預覽的檔案，在資訊面板關閉或重建時可能導致 App 中止。
 
@@ -344,6 +367,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 6uOtRyO6GVkm686AL/apaPhi5kqDqWevGHQ1mE7UEMV2usxCs83N9yEkC4c09wULD2xkiapw35P+ZUamsXKlAA==
-length: 58490
+edSignature: K5wxcTcMzwiIm11hwEDznGFy3cRDCZ+e99HB9ykbIodnOVhu1uwA3WGvIjrIAcI5M+XE8sPeLkOmEtiAd1HTCg==
+length: 60490
 -->
