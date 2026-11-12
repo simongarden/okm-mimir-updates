@@ -2,7 +2,29 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 1.1.0（build 66）（測試版）</title><pubDate>Wed, 11 Nov 2026 13:36:38 +0000</pubDate><sparkle:version>66</sparkle:version><sparkle:shortVersionString>1.1.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><sparkle:channel>beta</sparkle:channel><description sparkle:format="plain-text">主視窗介面改版（測試版）
+    <item><title>OKM Mimir 1.2.0（build 67）（測試版）</title><pubDate>Thu, 12 Nov 2026 11:17:15 +0000</pubDate><sparkle:version>67</sparkle:version><sparkle:shortVersionString>1.2.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><sparkle:channel>beta</sparkle:channel><description sparkle:format="plain-text">Markdown 改用內建的 OKM Mead 編輯核心（測試版）
+
+Markdown 文件
+・.md 的預覽、新增與編輯改由內建的 OKM Mead 編輯核心處理，全部在 OKM Mimir 內完成，不需要另外安裝 OKM Mead。
+・編輯器改為所見即所得：左側大綱、中間一張紙，直接輸入，畫面上不出現 Markdown 記號。
+・工具列可選段落樣式，插入清單、待辦、連結、圖片、表格、流程圖與分隔線；可切換「Markdown 原始格式」直接改原始碼。
+・表格直接點儲存格輸入；流程圖按兩下編輯步驟。
+・「預覽列印」可先看分頁結果，再列印或存成 PDF。
+・停止輸入約 1 秒後自動儲存；存檔時整理成一致的寫法，內容不變，編輯器不認得的內容原樣保留。
+・Inspector 與空白鍵預覽同樣改用新的排版。
+
+移除的功能
+・原本網頁式 Markdown 編輯器的原始碼／分割／預覽三種模式、數學式算繪、程式碼語法上色、匯出 HTML 與 Word、資料夾檔案搜尋與反向連結、自訂 CSS。
+・數學式現在以原文字顯示。Mermaid 流程圖（.mmd）編輯器不受影響。
+
+工具選單
+・新增「OKM Mead | Markdown編輯器」：下載獨立的 OKM Mead App（選用）。
+・OKM Skirr 與 OKM Mead 下載完成後直接開啟安裝檔，不再顯示會被擋住的拖曳提示畫面。
+
+這是更換 Markdown 編輯器的第一個測試版，若有文件開啟或存檔後內容不如預期，請回報。
+
+程式：AGPL-3.0-or-later；名稱、商標及官方品牌素材保留權利。
+同版本原始碼：https://github.com/simongarden/okm-mimir-updates/releases/download/v1.2.0-build67/OKM-Mimir-1.2.0-build67-source.tar.gz</description><enclosure url="https://github.com/simongarden/okm-mimir-updates/releases/download/v1.2.0-build67/OKM-Mimir-1.2.0-build67-universal.dmg" length="107880313" type="application/octet-stream" sparkle:edSignature="uRrYfNTI2SVACjcvlrvkfAVAaz5m7MYItmzq1fw5EoWi3JIw4DawVlMWIjn/P1J2f/Gf8cmzXVKh2GT0MQvtBQ=="></enclosure></item><item><title>OKM Mimir 1.1.0（build 66）（測試版）</title><pubDate>Wed, 11 Nov 2026 13:36:38 +0000</pubDate><sparkle:version>66</sparkle:version><sparkle:shortVersionString>1.1.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><sparkle:channel>beta</sparkle:channel><description sparkle:format="plain-text">主視窗介面改版（測試版）
 
 資料夾
 ・資料夾改為毛玻璃檔案夾，夾內放著裡面的檔案縮圖，隔著半透明的前片可以看到內容。
@@ -367,6 +389,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: K5wxcTcMzwiIm11hwEDznGFy3cRDCZ+e99HB9ykbIodnOVhu1uwA3WGvIjrIAcI5M+XE8sPeLkOmEtiAd1HTCg==
-length: 60490
+edSignature: A0GhfRoXlxyjDrnxMUcyl7MLlRDeT0vUFlSABf1AqycUxl9ffXIRUjES9ufgDmepHbpW8kg4vzF6YAXKi5IQCg==
+length: 62898
 -->
