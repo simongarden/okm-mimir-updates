@@ -2,7 +2,7 @@
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
 --><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
-    <item><title>OKM Mimir 1.2.0（build 67）（測試版）</title><pubDate>Thu, 12 Nov 2026 11:17:15 +0000</pubDate><sparkle:version>67</sparkle:version><sparkle:shortVersionString>1.2.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><sparkle:channel>beta</sparkle:channel><description sparkle:format="plain-text">Markdown 改用內建的 OKM Mead 編輯核心（測試版）
+    <item><title>OKM Mimir 1.2.0（build 67）</title><pubDate>Thu, 12 Nov 2026 11:17:15 +0000</pubDate><sparkle:version>67</sparkle:version><sparkle:shortVersionString>1.2.0</sparkle:shortVersionString><sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion><description sparkle:format="plain-text">Markdown 改用內建的 OKM Mead 編輯核心（測試版）
 
 Markdown 文件
 ・.md 的預覽、新增與編輯改由內建的 OKM Mead 編輯核心處理，全部在 OKM Mimir 內完成，不需要另外安裝 OKM Mead。
@@ -389,6 +389,6 @@ Markdown 圖表元件更新為 Mermaid 11；EPS 轉譯使用由官方原始碼�
     <language>zh-TW</language>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: A0GhfRoXlxyjDrnxMUcyl7MLlRDeT0vUFlSABf1AqycUxl9ffXIRUjES9ufgDmepHbpW8kg4vzF6YAXKi5IQCg==
-length: 62898
+edSignature: 2XFRxVoF/aEpQxZ8cgRnlwz3stLcbde6EjtDsa+yZ42TweRVHaDNOLXk8IgwPHa5khNv/YADggJL2d9uiwErBA==
+length: 62844
 -->
